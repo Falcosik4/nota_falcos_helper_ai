@@ -1,13 +1,5 @@
 {
-	"additionalNodes": [ {
-		"children": [],
-		"id": "A0nVge4sj3wTsehoSC79WBLIt3lgRo5Z",
-		"nodeType": "roleSplit",
-		"parameters": [ {
-			"name": "mode",
-			"value": "all-success"
-		} ]
-	} ],
+	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
 			"height": 88,
@@ -21,22 +13,15 @@
 			"height": 94,
 			"title": "store",
 			"width": 347,
-			"x": 802,
+			"x": 803,
 			"y": -439
 		},
 		"8lRMco9wYEGy1SxpXXjYNuFmdLv8deES": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 223,
+			"x": 224,
 			"y": 8
-		},
-		"A0nVge4sj3wTsehoSC79WBLIt3lgRo5Z": {
-			"height": 70,
-			"title": "roleSplit",
-			"width": 202,
-			"x": 1912,
-			"y": -335
 		},
 		"BB0kKU211pBOOsJ6kFjCryEdapITHXHJ": {
 			"height": 94,
@@ -63,21 +48,21 @@
 			"height": 94,
 			"title": "store",
 			"width": 337,
-			"x": 1388,
-			"y": -433
+			"x": 1322,
+			"y": -487
 		},
 		"UEuoM0TQPTkpThdy3LqbC4rjwONYqh2j": {
 			"height": 94,
 			"title": "store",
 			"width": 786,
-			"x": 493,
+			"x": 494,
 			"y": 2
 		},
 		"W1n9TxeXG7GZKLdFomrazQuM7lM1lHLn": {
 			"height": 94,
 			"title": "store",
 			"width": 431,
-			"x": 790,
+			"x": 791,
 			"y": -179
 		},
 		"aLYPXAMVUtfZXQ2xgiyzdlBKCvy0g3X0": {
@@ -98,21 +83,21 @@
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 892,
+			"x": 893,
 			"y": 155
 		},
 		"hKzFuMJpumrBRB2J9n1nTClXyhALyONf": {
 			"height": 92,
 			"title": "store",
 			"width": 168,
-			"x": 791,
+			"x": 792,
 			"y": -85
 		},
 		"iGCg79FI1qUIT9Q3Pb8FV8yJr9lUWBRk": {
 			"height": 94,
 			"title": "store",
 			"width": 337,
-			"x": 802,
+			"x": 803,
 			"y": -355
 		},
 		"iSfOr8bAEmGv0X6iwJJr8jbbicMBtv6N": {
@@ -126,7 +111,7 @@
 			"height": 94,
 			"title": "store",
 			"width": 424,
-			"x": 799,
+			"x": 800,
 			"y": -272
 		},
 		"nGazWVCbrNQdqSLnW1eqpqTZgbK0T8xF": {
@@ -138,7 +123,7 @@
 		},
 		"o6JxSzTsguege9jbq5VC7wslIHqxDI14": {
 			"height": 112,
-			"title": "nota_falcos_helperAI.MoveEntireFormation",
+			"title": "MoveEntireFormation",
 			"width": 357,
 			"x": 1373,
 			"y": -219
@@ -168,7 +153,7 @@
 				"value": "lineFormation"
 			}, {
 				"name": "value",
-				"value": "nota_falcos_helperAI.GetLineFormation()"
+				"value": "GetLineFormation()"
 			}, {
 				"name": "scriptName",
 				"value": "store"
@@ -183,7 +168,7 @@
 				"value": "maverick"
 			}, {
 				"name": "value",
-				"value": "nota_falcos_helperAI.GetMaverickInfo()"
+				"value": "GetMaverickInfo()"
 			}, {
 				"name": "scriptName",
 				"value": "store"
@@ -198,7 +183,7 @@
 				"value": "maverickGroup"
 			}, {
 				"name": "value",
-				"value": "nota_falcos_helperAI.GetMaverickGroup(maverick.id)"
+				"value": "GetMaverickGroup(maverick.id)"
 			}, {
 				"name": "scriptName",
 				"value": "store"
@@ -260,7 +245,7 @@
 						"value": "maverick"
 					}, {
 						"name": "value",
-						"value": "nota_falcos_helperAI.GetMaverickInfo()"
+						"value": "GetMaverickInfo()"
 					}, {
 						"name": "scriptName",
 						"value": "store"
