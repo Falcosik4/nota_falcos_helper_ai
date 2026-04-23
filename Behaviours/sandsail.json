@@ -137,7 +137,7 @@
 		}
 	},
 	"roles": [ {
-		"categories": [ "nota_falcos_helperAI.maverick" ],
+		"categories": [ "nota_falcos_helper_ai.maverick" ],
 		"name": "Maverick"
 	}, {
 		"categories": [ "Common.groundUnits" ],
@@ -281,9 +281,9 @@
 						"value": "relativeFormation"
 					}, {
 						"name": "scriptName",
-						"value": "nota_falcos_helperAI.MoveEntireFormation"
+						"value": "nota_falcos_helper_ai.MoveEntireFormation"
 					} ],
-					"scriptName": "nota_falcos_helperAI.MoveEntireFormation"
+					"scriptName": "nota_falcos_helper_ai.MoveEntireFormation"
 				}, {
 					"children": [],
 					"id": "aLYPXAMVUtfZXQ2xgiyzdlBKCvy0g3X0",
