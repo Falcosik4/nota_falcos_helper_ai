@@ -79,7 +79,7 @@ function Run(self, units, parameter)
 			if (self.thresholds ~= nil and table.getn(self.thresholds) > unitID) then
 				self.thresholds[unitID] = self.thresholds[unitID] + THRESHOLD_STEP 
 			else
-				self.thresholds[unitID] = THRESHOLD_DEFAULT + THRESHOLD_STEP
+				self.thresholds[unitID] = self.thresholds[unitID] + THRESHOLD_STEP
 			end
 		else
 			self.thresholds[unitID] = THRESHOLD_DEFAULT
