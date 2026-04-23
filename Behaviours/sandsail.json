@@ -86,6 +86,13 @@
 			"x": 1373,
 			"y": -48
 		},
+		"bBPIZTSJF072bBxoCYYBRPT0DwSeXE0a": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 958,
+			"y": 575
+		},
 		"blSy9HVyszGQQ2BCvk1cWp8rUiv2r3Us": {
 			"height": 132,
 			"title": "formation.moveCustomGroup",
@@ -374,26 +381,31 @@
 					"nodeType": "repeat",
 					"parameters": []
 				}, {
-					"children": [],
-					"id": "blSy9HVyszGQQ2BCvk1cWp8rUiv2r3Us",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "groupDefintion",
-						"value": "maverickGroup"
-					}, {
-						"name": "position",
-						"value": "targetPos"
-					}, {
-						"name": "formation",
-						"value": "relativeFormation"
-					}, {
-						"name": "fight",
-						"value": "false"
-					}, {
-						"name": "scriptName",
-						"value": "formation.moveCustomGroup"
+					"children": [ {
+						"children": [],
+						"id": "blSy9HVyszGQQ2BCvk1cWp8rUiv2r3Us",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "groupDefintion",
+							"value": "maverickGroup"
+						}, {
+							"name": "position",
+							"value": "targetPos"
+						}, {
+							"name": "formation",
+							"value": "relativeFormation"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "formation.moveCustomGroup"
+						} ],
+						"scriptName": "formation.moveCustomGroup"
 					} ],
-					"scriptName": "formation.moveCustomGroup"
+					"id": "bBPIZTSJF072bBxoCYYBRPT0DwSeXE0a",
+					"nodeType": "repeat",
+					"parameters": []
 				} ],
 				"id": "6nFdHcchDKyZNnbYVKXyI8qAAQzMS6jW",
 				"nodeType": "parallel",
