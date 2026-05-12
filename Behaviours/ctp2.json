@@ -1,0 +1,391 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"87hBjh8Vh5nJqlf5JeeRiU3F6h1izs91": {
+			"height": 94,
+			"title": "store",
+			"width": 350,
+			"x": 1051,
+			"y": 281
+		},
+		"AuNIykgKUQlxpgh8utA2LnrjFqTacljy": {
+			"height": 60,
+			"title": "CapFreeHills",
+			"width": 195,
+			"x": 782,
+			"y": 13
+		},
+		"CZFZi3KiJFibjPcWGxcBw2n80XJ3aWBb": {
+			"height": 54,
+			"title": "nota_common.manualMissionEnd",
+			"width": 296,
+			"x": 388,
+			"y": 211
+		},
+		"FAYu3gqrSzJkdsONbMWKzqiFdfFHDn5T": {
+			"height": 60,
+			"title": "CapContestedHill",
+			"width": 192,
+			"x": 699,
+			"y": 138
+		},
+		"IaE9Sew5iZ583wLHJ7GyNBDoA70YxPsj": {
+			"height": 112,
+			"title": "nota_falcos_helper_ai.MoveUnitApproximately",
+			"width": 375,
+			"x": 981,
+			"y": 970
+		},
+		"LKNrd2Y4aW9fidffebkipHLV9xmSZbVh": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 1271,
+			"y": 850
+		},
+		"OlkmmCazESbvTLfDbavzP4UjUh9POJZW": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 217,
+			"y": 17
+		},
+		"WKMmWPZvSuzVCZTAqrh2nPz1fz1Hi1td": {
+			"height": 92,
+			"title": "nota_luhi_firstai.loadUnits",
+			"width": 244,
+			"x": 1005,
+			"y": 486
+		},
+		"Yrex9OCadXDEQItzh99OInHU8n6tufja": {
+			"height": 94,
+			"title": "store",
+			"width": 533,
+			"x": 447,
+			"y": -105
+		},
+		"hCVYMEoVNR6jGRZysYbs7KiXO9kMAUmu": {
+			"height": 94,
+			"title": "store",
+			"width": 615,
+			"x": 1089,
+			"y": -18
+		},
+		"iJ9J06vDlUWSFGAsgkUQxHGeWWDDaTBG": {
+			"height": 94,
+			"title": "store",
+			"width": 265,
+			"x": 1045,
+			"y": 185
+		},
+		"iNiYcKbN6GlGxwVZwE3SzPWVHuhhk761": {
+			"height": 92,
+			"title": "store",
+			"width": 276,
+			"x": 449,
+			"y": -188
+		},
+		"kJUtnzGMhynAB7QvzWy0CNfeQ0H3nTwD": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1000,
+			"y": 821
+		},
+		"l00xoKAKyRrV8VJbvYkpRoGVNisGkwHE": {
+			"height": 112,
+			"title": "nota_falcos_helper_ai.MoveUnitApproximately",
+			"width": 375,
+			"x": 942,
+			"y": 567
+		},
+		"ovDVpZpqNhd5oucuJRJyCXGJXozCUxkZ": {
+			"height": 94,
+			"title": "store",
+			"width": 268,
+			"x": 444,
+			"y": -269
+		},
+		"tmzbOvcsSZrSdnhpp5NrFthG5q7fDohJ": {
+			"height": 72,
+			"title": "nota_mianencz_ctp2.SplitAndMove",
+			"width": 304,
+			"x": 1088,
+			"y": 84
+		},
+		"x4IrIHwOJHSPGXoyjZElB08LqrSaCnh8": {
+			"height": 112,
+			"title": "nota_falcos_helper_ai.MoveUnitApproximately",
+			"width": 375,
+			"x": 1031,
+			"y": 388
+		},
+		"xC247geHLJ13x88lNGrZWKuRaQ6NA7DS": {
+			"height": 114,
+			"title": "nota_luhi_firstai.unloadUnits",
+			"width": 524,
+			"x": 1272,
+			"y": 712
+		},
+		"ySL4h1aqoebwzRhP2vjyD4LNBvvHZyNd": {
+			"height": 70,
+			"title": "roleSplit",
+			"width": 202,
+			"x": 460,
+			"y": 38
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "HillCapper"
+	}, {
+		"categories": [ "nota_falcos_helper_ai.CTPTaskForce" ],
+		"name": "TaskForce"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "ovDVpZpqNhd5oucuJRJyCXGJXozCUxkZ",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "missionInfo"
+			}, {
+				"name": "value",
+				"value": "core.MissionInfo()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "iNiYcKbN6GlGxwVZwE3SzPWVHuhhk761",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "enemyPos"
+			}, {
+				"name": "value",
+				"value": "missionInfo.enemyPositions[1]"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "Yrex9OCadXDEQItzh99OInHU8n6tufja",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "platforms"
+			}, {
+				"name": "value",
+				"value": "nota_mianencz_ctp2.GetPlatforms(128, core.MissionInfo().areaHeight)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "hCVYMEoVNR6jGRZysYbs7KiXO9kMAUmu",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "safePlatforms"
+					}, {
+						"name": "value",
+						"value": "nota_mianencz_ctp2.GetSafePositions(platforms, missionInfo.enemyPositions, 128)"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "tmzbOvcsSZrSdnhpp5NrFthG5q7fDohJ",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "positions",
+						"value": "safePlatforms"
+					}, {
+						"name": "scriptName",
+						"value": "nota_mianencz_ctp2.SplitAndMove"
+					} ],
+					"scriptName": "nota_mianencz_ctp2.SplitAndMove"
+				} ],
+				"id": "AuNIykgKUQlxpgh8utA2LnrjFqTacljy",
+				"nodeType": "sequence",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "iJ9J06vDlUWSFGAsgkUQxHGeWWDDaTBG",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bear"
+					}, {
+						"name": "value",
+						"value": "nota_luhi_firstai.BEAR(units)"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "87hBjh8Vh5nJqlf5JeeRiU3F6h1izs91",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "wars"
+					}, {
+						"name": "value",
+						"value": "nota_luhi_firstai.ExcludeUnit(units, bear)"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "x4IrIHwOJHSPGXoyjZElB08LqrSaCnh8",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "unit",
+						"value": "bear"
+					}, {
+						"name": "position",
+						"value": "core.Position()"
+					}, {
+						"name": "baseThreshold",
+						"value": 30
+					}, {
+						"name": "scriptName",
+						"value": "nota_falcos_helper_ai.MoveUnitApproximately"
+					} ],
+					"scriptName": "nota_falcos_helper_ai.MoveUnitApproximately"
+				}, {
+					"children": [],
+					"id": "WKMmWPZvSuzVCZTAqrh2nPz1fz1Hi1td",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "transporter",
+						"value": "bear"
+					}, {
+						"name": "unitsToLoad",
+						"value": "wars"
+					}, {
+						"name": "scriptName",
+						"value": "nota_luhi_firstai.loadUnits"
+					} ],
+					"scriptName": "nota_luhi_firstai.loadUnits"
+				}, {
+					"children": [],
+					"id": "l00xoKAKyRrV8VJbvYkpRoGVNisGkwHE",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "unit",
+						"value": "bear"
+					}, {
+						"name": "position",
+						"value": "enemyPos"
+					}, {
+						"name": "baseThreshold",
+						"value": 40
+					}, {
+						"name": "scriptName",
+						"value": "nota_falcos_helper_ai.MoveUnitApproximately"
+					} ],
+					"scriptName": "nota_falcos_helper_ai.MoveUnitApproximately"
+				}, {
+					"children": [ {
+						"children": [],
+						"id": "xC247geHLJ13x88lNGrZWKuRaQ6NA7DS",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "transporter",
+							"value": "bear"
+						}, {
+							"name": "unitsToUnload",
+							"value": "wars"
+						}, {
+							"name": "unloadPos",
+							"value": "core.Position()"
+						}, {
+							"name": "scriptName",
+							"value": "nota_luhi_firstai.unloadUnits"
+						} ],
+						"scriptName": "nota_luhi_firstai.unloadUnits"
+					}, {
+						"children": [],
+						"id": "LKNrd2Y4aW9fidffebkipHLV9xmSZbVh",
+						"nodeType": "wait",
+						"parameters": [ {
+							"name": "time",
+							"value": 10
+						} ]
+					} ],
+					"id": "kJUtnzGMhynAB7QvzWy0CNfeQ0H3nTwD",
+					"nodeType": "parallel",
+					"parameters": [ {
+						"name": "mode",
+						"value": "any-success"
+					} ]
+				}, {
+					"children": [],
+					"id": "IaE9Sew5iZ583wLHJ7GyNBDoA70YxPsj",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "unit",
+						"value": "wars[1]"
+					}, {
+						"name": "position",
+						"value": "platforms[4]"
+					}, {
+						"name": "baseThreshold",
+						"value": 10
+					}, {
+						"name": "scriptName",
+						"value": "nota_falcos_helper_ai.MoveUnitApproximately"
+					} ],
+					"scriptName": "nota_falcos_helper_ai.MoveUnitApproximately"
+				} ],
+				"id": "FAYu3gqrSzJkdsONbMWKzqiFdfFHDn5T",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "ySL4h1aqoebwzRhP2vjyD4LNBvvHZyNd",
+			"nodeType": "roleSplit",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		}, {
+			"children": [],
+			"id": "CZFZi3KiJFibjPcWGxcBw2n80XJ3aWBb",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "scriptName",
+				"value": "nota_common.manualMissionEnd"
+			} ],
+			"scriptName": "nota_common.manualMissionEnd"
+		} ],
+		"id": "OlkmmCazESbvTLfDbavzP4UjUh9POJZW",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
