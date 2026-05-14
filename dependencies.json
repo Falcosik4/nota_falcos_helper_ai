@@ -2,6 +2,6 @@
     "core": "0.8.x",
     "map": "0.4.x",
     "formation": "0.3.x",
-    "nota_luhi_firstai" : "ctp2",
+    "nota_luhi_firstai" : "1.2",
     "nota_mianencz_ctp2" : "1.0"
 }
