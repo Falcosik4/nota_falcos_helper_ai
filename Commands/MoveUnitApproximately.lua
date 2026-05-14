@@ -42,8 +42,6 @@ function Run(self, units, parameter)
 	local unit = parameter.unit -- ID
 	local baseThreshold = parameter.baseThreshold
 
-	Spring.Echo("Parameter ... " .. parameter.unit)
-
 	-- pick the spring command implementing the move
 	local cmdID = CMD.MOVE
 
@@ -54,8 +52,6 @@ function Run(self, units, parameter)
 	if self.lastPosition == nil then
 		self.lastPosition = Vec3(0,0,0)
 	end
-
-	Spring.Echo("Bear ID: " .. unit)
 
 	if unitPosition == self.lastPosition then
 		self.threshold = self.threshold + THRESHOLD_STEP
