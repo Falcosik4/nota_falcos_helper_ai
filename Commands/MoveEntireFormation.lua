@@ -90,7 +90,6 @@ function Run(self, units, parameter)
 		local unitOffset = formation[posIndex]
 		local unitWantedPosition = position + unitOffset
 		local distance = unitPosition:Distance(unitWantedPosition)
-		Spring.Echo("Unit " .. unitID .. " distance to wanted position: " .. distance .. ", threshold: " .. self.thresholds[unitID])
 		if(distance < self.thresholds[unitID]) then
 			unitsInPosition = unitsInPosition + 1
 		else
@@ -103,7 +102,6 @@ function Run(self, units, parameter)
 	if (unitsInPosition >= unitsTotal - 1) then
 		return SUCCESS
 	else
-		Spring.Echo("Units in position: " .. unitsInPosition .. "/" .. unitsTotal)
 		return RUNNING
 	end
 
