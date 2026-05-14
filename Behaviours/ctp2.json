@@ -13,14 +13,14 @@
 			"height": 94,
 			"title": "store",
 			"width": 350,
-			"x": 1052,
+			"x": 1051,
 			"y": 281
 		},
 		"AuNIykgKUQlxpgh8utA2LnrjFqTacljy": {
 			"height": 60,
 			"title": "CapFreeHills",
 			"width": 195,
-			"x": 786,
+			"x": 785,
 			"y": 13
 		},
 		"CZFZi3KiJFibjPcWGxcBw2n80XJ3aWBb": {
@@ -41,14 +41,14 @@
 			"height": 112,
 			"title": "nota_falcos_helper_ai.MoveUnitApproximately",
 			"width": 375,
-			"x": 1354,
+			"x": 1353,
 			"y": 939
 		},
 		"LKNrd2Y4aW9fidffebkipHLV9xmSZbVh": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1270,
+			"x": 1269,
 			"y": 850
 		},
 		"OlkmmCazESbvTLfDbavzP4UjUh9POJZW": {
@@ -62,7 +62,7 @@
 			"height": 92,
 			"title": "nota_luhi_firstai.loadUnits",
 			"width": 244,
-			"x": 1012,
+			"x": 1011,
 			"y": 501
 		},
 		"Yrex9OCadXDEQItzh99OInHU8n6tufja": {
@@ -76,21 +76,21 @@
 			"height": 112,
 			"title": "nota_falcos_helper_ai.MoveUnitApproximately",
 			"width": 375,
-			"x": 1350,
+			"x": 1349,
 			"y": 1059
 		},
 		"hCVYMEoVNR6jGRZysYbs7KiXO9kMAUmu": {
 			"height": 94,
 			"title": "store",
 			"width": 615,
-			"x": 1090,
+			"x": 1089,
 			"y": -18
 		},
 		"iJ9J06vDlUWSFGAsgkUQxHGeWWDDaTBG": {
 			"height": 94,
 			"title": "store",
 			"width": 265,
-			"x": 1046,
+			"x": 1045,
 			"y": 185
 		},
 		"iNiYcKbN6GlGxwVZwE3SzPWVHuhhk761": {
@@ -104,21 +104,21 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 1002,
+			"x": 1001,
 			"y": 821
 		},
 		"l00xoKAKyRrV8VJbvYkpRoGVNisGkwHE": {
 			"height": 112,
 			"title": "nota_falcos_helper_ai.MoveUnitApproximately",
 			"width": 375,
-			"x": 949,
+			"x": 948,
 			"y": 604
 		},
 		"nVltB2r5aWWckOMZeKr2l900LjiB6raw": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 298,
-			"x": 1000,
+			"x": 999,
 			"y": 1008
 		},
 		"ovDVpZpqNhd5oucuJRJyCXGJXozCUxkZ": {
@@ -128,25 +128,32 @@
 			"x": 449,
 			"y": -269
 		},
+		"sxgddhF3OR5Mx86un7mKw3j57DOVEJQP": {
+			"height": 72,
+			"title": "infiniteWait",
+			"width": 150,
+			"x": 398,
+			"y": 277
+		},
 		"tmzbOvcsSZrSdnhpp5NrFthG5q7fDohJ": {
 			"height": 72,
 			"title": "nota_mianencz_ctp2.SplitAndMove",
 			"width": 304,
-			"x": 1089,
+			"x": 1088,
 			"y": 84
 		},
 		"x4IrIHwOJHSPGXoyjZElB08LqrSaCnh8": {
 			"height": 112,
 			"title": "nota_falcos_helper_ai.MoveUnitApproximately",
 			"width": 375,
-			"x": 1033,
+			"x": 1032,
 			"y": 388
 		},
 		"xC247geHLJ13x88lNGrZWKuRaQ6NA7DS": {
 			"height": 114,
 			"title": "nota_luhi_firstai.unloadUnits",
 			"width": 524,
-			"x": 1271,
+			"x": 1270,
 			"y": 712
 		},
 		"ySL4h1aqoebwzRhP2vjyD4LNBvvHZyNd": {
@@ -426,6 +433,18 @@
 				"value": "nota_common.manualMissionEnd"
 			} ],
 			"scriptName": "nota_common.manualMissionEnd"
+		}, {
+			"children": [],
+			"id": "sxgddhF3OR5Mx86un7mKw3j57DOVEJQP",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "condition",
+				"value": "false"
+			}, {
+				"name": "scriptName",
+				"value": "waitUntil"
+			} ],
+			"scriptName": "waitUntil"
 		} ],
 		"id": "OlkmmCazESbvTLfDbavzP4UjUh9POJZW",
 		"nodeType": "sequence",

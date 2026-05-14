@@ -58,10 +58,8 @@ function Run(self, units, parameter)
 	Spring.Echo("Bear ID: " .. unit)
 
 	if unitPosition == self.lastPosition then
-		Spring.Echo("Unit is not moving, increasing threshold.")
 		self.threshold = self.threshold + THRESHOLD_STEP
 	else
-		Spring.Echo("Unit is moving, resetting threshold.")
 		self.threshold = baseThreshold
 	end
 
@@ -70,10 +68,8 @@ function Run(self, units, parameter)
 	local distance = unitPosition:Distance(position)
 
 	if distance < self.threshold then
-		Spring.Echo("Unit is in position, distance: " .. distance .. ", threshold: " .. self.threshold)
 		return SUCCESS
 	else
-		Spring.Echo("Unit is not in position, distance: " .. distance .. ", threshold: " .. self.threshold)
 		SpringGiveOrderToUnit(unit, cmdID, position:AsSpringVector(), {})
 		self.lastPosition = unitPosition
 		return RUNNING
