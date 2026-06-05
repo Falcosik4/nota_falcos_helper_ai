@@ -1,0 +1,953 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 168,
+			"width": 255
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "transports"
+	}, {
+		"command": "Variable",
+		"name": "scouts"
+	}, {
+		"command": "Variable",
+		"name": "targets"
+	} ],
+	"outputs": [],
+	"properties": {
+		"0iSLHr67CrX4gO0WXwjeMZ2JXguE79tw": {
+			"height": 60,
+			"title": "sequence - Atlas 3",
+			"width": 199,
+			"x": 1634,
+			"y": 1545
+		},
+		"14T9Y0Tzp8T49QSXZgmCOamoEJI6F3fm": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 2665,
+			"y": 1299
+		},
+		"3IwSzurxQsEMhl4EPBv8LdRhmtgc4fig": {
+			"height": 72,
+			"title": "nota_michelle_intro.extractPathsToUnits",
+			"width": 337,
+			"x": 1343,
+			"y": 333
+		},
+		"5C49caAF5hnp9OsfgHfrGUJkqTkroyTc": {
+			"height": 94,
+			"title": "store - Update status of the triple",
+			"width": 417,
+			"x": 3039,
+			"y": 1779
+		},
+		"5GcAuep7lPUupJKyBvR7flNMliBpJ5Oj": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 2840,
+			"y": 1242
+		},
+		"5fzCxRqhfxiakjlK5rJXYCWr6tAj3lRK": {
+			"height": 94,
+			"title": "store",
+			"width": 349,
+			"x": 1931,
+			"y": 1533
+		},
+		"6LJL1ZQHoqHcXLPlWsigywjQWysR1TeF": {
+			"height": 94,
+			"title": "store - Display the grid of safe points",
+			"width": 460,
+			"x": 1342,
+			"y": 178
+		},
+		"7tu3w17LpcEis7OPxnBmeaexockAkDnK": {
+			"height": 94,
+			"title": "store - Display the safe paths to the units",
+			"width": 453,
+			"x": 1342,
+			"y": 401
+		},
+		"82C1LZyKZI9xT36oK54UfqBL4EpUvGYV": {
+			"height": 94,
+			"title": "store - Update status of the triple after failure",
+			"width": 422,
+			"x": 2842,
+			"y": 2251
+		},
+		"8mVkGyQNGTCTQLP0oMm0Dayasoe1GcYK": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 681,
+			"x": 1933,
+			"y": 2005
+		},
+		"99zE3ksql55Bhqszv1wblcAZe3M1Oate": {
+			"height": 94,
+			"title": "store - Update status of the triple",
+			"width": 417,
+			"x": 3038,
+			"y": 2161
+		},
+		"AgqZJ2erFvM1acZCfQ6XMXL0GNmxekfa": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 962,
+			"y": 641
+		},
+		"B04965R370MRCiaXqJvVk3W3YkAnmLP9": {
+			"height": 94,
+			"title": "store - Update status of the triple after failure",
+			"width": 422,
+			"x": 2845,
+			"y": 1480
+		},
+		"De9J6UzfV4sbb1fIZp30kXzNQcZkD2Gc": {
+			"height": 94,
+			"title": "store - Periodically update status in rescue manager",
+			"width": 504,
+			"x": 1126,
+			"y": 560
+		},
+		"ET1P0JcdcN4ntL4kaFcXAx33894zrCiF": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 2837,
+			"y": 1630
+		},
+		"Ex6U4hMDbbLaGKvwFT9nynHpNZ68X5k4": {
+			"height": 60,
+			"title": "sequence - Atlas 1",
+			"width": 199,
+			"x": 1634,
+			"y": 759
+		},
+		"Fk7a5EXjTgbGWQHcY2iCBNoCJ6f3jYSr": {
+			"height": 70,
+			"title": "parallel - Send 4 Atlases at once",
+			"width": 313,
+			"x": 1196,
+			"y": 753
+		},
+		"FyzwlA0Weh2C4ocqsPhUrTgIG4MpVP9e": {
+			"height": 60,
+			"title": "sequence - Atlas 4",
+			"width": 199,
+			"x": 1630,
+			"y": 1931
+		},
+		"L5ZIrsIy7aiZrykLnG1qT8X0khc55YBz": {
+			"height": 70,
+			"title": "parallel - Send the Atlases",
+			"width": 313,
+			"x": 596,
+			"y": 546
+		},
+		"LbYJw3SbCSZT3xUFlnN34iz3zQ9so5NS": {
+			"height": 256,
+			"title": "reference - Bring the unit to the destination using Atlas",
+			"width": 558,
+			"x": 3214,
+			"y": 744
+		},
+		"Nafnskk2MJsuichXEkGX10AQCfaBo1Rz": {
+			"height": 94,
+			"title": "store - Initialize rescue manager with the given units",
+			"width": 656,
+			"x": 602,
+			"y": -145
+		},
+		"PQMCLliAQbXEa9TgVlbMZLDX9zyOVOlZ": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 2668,
+			"y": 909
+		},
+		"QGEM2LwyrPheqzV2XBrQr8DMzr1xX8Vk": {
+			"height": 94,
+			"title": "store - Get triple (Atlas, unitToRescue, destination)",
+			"width": 402,
+			"x": 1935,
+			"y": 747
+		},
+		"QJEvgkUWHBu8BHiga6Mt8GTZZTJtAmFw": {
+			"height": 70,
+			"title": "selector",
+			"width": 131,
+			"x": 2669,
+			"y": 840
+		},
+		"QwtUaQGrZCpWiVGNU6Gyo65WWVAo7Avo": {
+			"height": 70,
+			"title": "selector",
+			"width": 131,
+			"x": 2665,
+			"y": 1626
+		},
+		"S09RrAVVbjQSh3HBCfojobDu2CWM13dQ": {
+			"height": 94,
+			"title": "store - Update status of the triple",
+			"width": 417,
+			"x": 3276,
+			"y": 1037
+		},
+		"S4aVQNrDgBUC6F5vHRnEymy2oJw3dDph": {
+			"height": 90,
+			"title": "luaCondition - Atlas, unitToRescue and destination point are all available",
+			"width": 681,
+			"x": 1936,
+			"y": 833
+		},
+		"S6XY5dWd2aRn7xskGzbtWYGbdZ0rAInG": {
+			"height": 193,
+			"title": "reference - Bring the unit to the destination using Atlas",
+			"width": 557,
+			"x": 3040,
+			"y": 1581
+		},
+		"Sqr1gh3t6QdustltQ0wfVFSgnx9SWJJo": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 2665,
+			"y": 1690
+		},
+		"TKHDIA75TtySJPzym9gEpqEthe4f2hfS": {
+			"height": 94,
+			"title": "store",
+			"width": 349,
+			"x": 1932,
+			"y": 1919
+		},
+		"aV7smsDA5xtMlawftSZMu2JLyG2fsRBT": {
+			"height": 195,
+			"title": "reference - Bring the unit to the destination using Atlas",
+			"width": 557,
+			"x": 3072,
+			"y": 1180
+		},
+		"azOHYzu5cNtBHA2b1Bc2iVj2xJrELoJa": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 2841,
+			"y": 844
+		},
+		"ceYo5eGtzpstQUktILuC7lziidBA4ewO": {
+			"height": 94,
+			"title": "store - Update status of the triple after failure",
+			"width": 422,
+			"x": 2847,
+			"y": 1076
+		},
+		"f0HlByaAfN1cqKj0b52H4IovmI0noQE8": {
+			"height": 54,
+			"title": "Scanning sequence (identical to nota_michelle_intro.ttdr-scanMapForSafePaths)",
+			"width": 679,
+			"x": 577,
+			"y": -61
+		},
+		"fCwTGy7wut4ny6DtY7jHFIfwJoStOfxb": {
+			"height": 60,
+			"title": "sequence - Atlas 2",
+			"width": 199,
+			"x": 1641,
+			"y": 1157
+		},
+		"fhaqFZSbfRUFCMRJyNDYZrcnKEiqFcYE": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 681,
+			"x": 1932,
+			"y": 1619
+		},
+		"gjjzlTJ354fJJld8aTWAujSDNUi1AaQs": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 2836,
+			"y": 2016
+		},
+		"hIRc3IXkktQWmpM77HIeZ760s4D5C9bv": {
+			"height": 94,
+			"title": "store - Update status of the triple after failure",
+			"width": 422,
+			"x": 2842,
+			"y": 1871
+		},
+		"iuEnEupLRdltGiYdQKsmaS2mmz9Q45ox": {
+			"height": 72,
+			"title": "nota_michelle_intro.computePathsOverSafeGrid",
+			"width": 387,
+			"x": 1343,
+			"y": 267
+		},
+		"mUjj293PH9ttOimqMl9sb96lWTl0N9YR": {
+			"height": 72,
+			"title": "nota_michelle_intro.scanMapForEnemies",
+			"width": 344,
+			"x": 1341,
+			"y": -54
+		},
+		"n3PBWOC2nTeEbpXaX0jfHLYxFckzVk4H": {
+			"height": 94,
+			"title": "store",
+			"width": 349,
+			"x": 1933,
+			"y": 1145
+		},
+		"n6UZtwnIovA7DTJP8PZYFONMSHOrXMQC": {
+			"height": 70,
+			"title": "selector",
+			"width": 131,
+			"x": 2668,
+			"y": 1238
+		},
+		"p45t56h6SIQwAQ7xBv3P6cCwOIX7494r": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 2665,
+			"y": 2074
+		},
+		"p5OZbwP3WZYiehq3FTJNScI41nr1NPsx": {
+			"height": 72,
+			"title": "nota_michelle_intro.unloadAllTransporters",
+			"width": 350,
+			"x": 604,
+			"y": -210
+		},
+		"plWdcbB2VEQVSjSKBRxWcV7oBTTE8PFL": {
+			"height": 193,
+			"title": "reference - Bring the unit to the destination using Atlas",
+			"width": 561,
+			"x": 3092,
+			"y": 1968
+		},
+		"sDmGXVxWbLF8r34JdTbOPmj944hgq9da": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 958,
+			"y": 550
+		},
+		"sy0Dw3NsCKMhLqttNfbsNjGYVD8n8VpM": {
+			"height": 70,
+			"title": "selector",
+			"width": 131,
+			"x": 2664,
+			"y": 2012
+		},
+		"uoadLRu5Kh6LJGzg5kr3uzdYdwYAlgip": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 356,
+			"y": 26
+		},
+		"v8D5c751aEJEIIudh0TXkHNdqcFwQzT8": {
+			"height": 172,
+			"title": "nota_michelle_intro.findGridOfSafePoints",
+			"width": 342,
+			"x": 1340,
+			"y": 13
+		},
+		"wwZ9yjruMQuydWqUmKhlALx4Uhhcj34o": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 681,
+			"x": 1934,
+			"y": 1231
+		},
+		"yiy7IxizAaYacgdEUJ41wRWW5i9aNhYl": {
+			"height": 94,
+			"title": "store - Update status of the triple",
+			"width": 417,
+			"x": 3040,
+			"y": 1388
+		}
+	},
+	"roles": [ {
+		"categories": [ "nota_michelle_intro.atlasCategory" ],
+		"name": "Atlases"
+	}, {
+		"categories": [ "nota_michelle_intro.peeperCategory" ],
+		"name": "Peepers"
+	}, {
+		"categories": [],
+		"name": "Other"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "p5OZbwP3WZYiehq3FTJNScI41nr1NPsx",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "transporters",
+				"value": "transports"
+			}, {
+				"name": "scriptName",
+				"value": "nota_michelle_intro.unloadAllTransporters"
+			} ],
+			"scriptName": "nota_michelle_intro.unloadAllTransporters"
+		}, {
+			"children": [],
+			"id": "Nafnskk2MJsuichXEkGX10AQCfaBo1Rz",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "_"
+			}, {
+				"name": "value",
+				"value": "nota_michelle_intro.InitializeRescueManager(transports, targets, bb.missionInfo.safeArea)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "mUjj293PH9ttOimqMl9sb96lWTl0N9YR",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "peepers",
+					"value": "scouts"
+				}, {
+					"name": "scriptName",
+					"value": "nota_michelle_intro.scanMapForEnemies"
+				} ],
+				"scriptName": "nota_michelle_intro.scanMapForEnemies"
+			}, {
+				"children": [],
+				"id": "v8D5c751aEJEIIudh0TXkHNdqcFwQzT8",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "enemyUnits",
+					"value": "bb.enemiesInfo"
+				}, {
+					"name": "step",
+					"value": "100"
+				}, {
+					"name": "heightThreshold",
+					"value": "100"
+				}, {
+					"name": "enemyDistanceThreshold",
+					"value": "1200"
+				}, {
+					"name": "enemyHeightThreshold",
+					"value": "300"
+				}, {
+					"name": "lowEnemyDistanceThreshold",
+					"value": "800"
+				}, {
+					"name": "scriptName",
+					"value": "nota_michelle_intro.findGridOfSafePoints"
+				} ],
+				"scriptName": "nota_michelle_intro.findGridOfSafePoints"
+			}, {
+				"children": [],
+				"id": "6LJL1ZQHoqHcXLPlWsigywjQWysR1TeF",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "_"
+				}, {
+					"name": "value",
+					"value": "nota_michelle_intro.GridOfSafePointsDebug(bb.safePoints)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "iuEnEupLRdltGiYdQKsmaS2mmz9Q45ox",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "safeArea",
+					"value": "bb.missionInfo.safeArea"
+				}, {
+					"name": "scriptName",
+					"value": "nota_michelle_intro.computePathsOverSafeGrid"
+				} ],
+				"scriptName": "nota_michelle_intro.computePathsOverSafeGrid"
+			}, {
+				"children": [],
+				"id": "3IwSzurxQsEMhl4EPBv8LdRhmtgc4fig",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitsToRescue",
+					"value": "targets"
+				}, {
+					"name": "scriptName",
+					"value": "nota_michelle_intro.extractPathsToUnits"
+				} ],
+				"scriptName": "nota_michelle_intro.extractPathsToUnits"
+			}, {
+				"children": [],
+				"id": "7tu3w17LpcEis7OPxnBmeaexockAkDnK",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "_"
+				}, {
+					"name": "value",
+					"value": "nota_michelle_intro.PathsToUnitsDebug(bb.pathsToUnits)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "f0HlByaAfN1cqKj0b52H4IovmI0noQE8",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "De9J6UzfV4sbb1fIZp30kXzNQcZkD2Gc",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "_"
+					}, {
+						"name": "value",
+						"value": "nota_michelle_intro.UpdateRescueStatus(transports,scouts)"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "sDmGXVxWbLF8r34JdTbOPmj944hgq9da",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "QGEM2LwyrPheqzV2XBrQr8DMzr1xX8Vk",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "rescueInfo1"
+							}, {
+								"name": "value",
+								"value": "nota_michelle_intro.ArrangeNewRescue()"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [ {
+								"children": [ {
+									"children": [ {
+										"children": [],
+										"id": "LbYJw3SbCSZT3xUFlnN34iz3zQ9so5NS",
+										"nodeType": "reference",
+										"parameters": [ {
+											"name": "behaviourName",
+											"value": "nota_falcos_helper_ai.rescueOne"
+										} ],
+										"referenceInputs": [ {
+											"name": "transporter",
+											"value": "rescueInfo1.atlas"
+										}, {
+											"name": "target",
+											"value": "rescueInfo1.unitToRescue"
+										}, {
+											"name": "rescuePosition",
+											"value": "bb.rescueManager.safePositions[rescueInfo1.destinationIndex]"
+										} ],
+										"referenceOutputs": []
+									}, {
+										"children": [],
+										"id": "S09RrAVVbjQSh3HBCfojobDu2CWM13dQ",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "_"
+										}, {
+											"name": "value",
+											"value": "nota_michelle_intro.FinishRescue(rescueInfo1, true)"
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									} ],
+									"id": "azOHYzu5cNtBHA2b1Bc2iVj2xJrELoJa",
+									"nodeType": "sequence",
+									"parameters": []
+								}, {
+									"children": [],
+									"id": "ceYo5eGtzpstQUktILuC7lziidBA4ewO",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "_"
+									}, {
+										"name": "value",
+										"value": "nota_michelle_intro.FinishRescue(rescueInfo1, false)"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								} ],
+								"id": "QJEvgkUWHBu8BHiga6Mt8GTZZTJtAmFw",
+								"nodeType": "selector",
+								"parameters": [ {
+									"name": "active",
+									"value": "false"
+								} ]
+							}, {
+								"children": [],
+								"id": "PQMCLliAQbXEa9TgVlbMZLDX9zyOVOlZ",
+								"nodeType": "success",
+								"parameters": []
+							} ],
+							"id": "S4aVQNrDgBUC6F5vHRnEymy2oJw3dDph",
+							"nodeType": "luaCondition",
+							"parameters": [ {
+								"name": "expression",
+								"value": "rescueInfo1.atlas ~= nil and rescueInfo1.unitToRescue ~= nil and rescueInfo1.destinationIndex ~= -1"
+							}, {
+								"name": "repeat",
+								"value": "false"
+							} ]
+						} ],
+						"id": "Ex6U4hMDbbLaGKvwFT9nynHpNZ68X5k4",
+						"nodeType": "sequence",
+						"parameters": []
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "n3PBWOC2nTeEbpXaX0jfHLYxFckzVk4H",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "rescueInfo2"
+							}, {
+								"name": "value",
+								"value": "nota_michelle_intro.ArrangeNewRescue()"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [ {
+								"children": [ {
+									"children": [ {
+										"children": [],
+										"id": "aV7smsDA5xtMlawftSZMu2JLyG2fsRBT",
+										"nodeType": "reference",
+										"parameters": [ {
+											"name": "behaviourName",
+											"value": "nota_falcos_helper_ai.rescueOne"
+										} ],
+										"referenceInputs": [ {
+											"name": "transporter",
+											"value": "rescueInfo2.atlas"
+										}, {
+											"name": "target",
+											"value": "rescueInfo2.unitToRescue"
+										}, {
+											"name": "rescuePosition",
+											"value": "bb.rescueManager.safePositions[rescueInfo2.destinationIndex]"
+										} ],
+										"referenceOutputs": []
+									}, {
+										"children": [],
+										"id": "yiy7IxizAaYacgdEUJ41wRWW5i9aNhYl",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "_"
+										}, {
+											"name": "value",
+											"value": "nota_michelle_intro.FinishRescue(rescueInfo2, true)"
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									} ],
+									"id": "5GcAuep7lPUupJKyBvR7flNMliBpJ5Oj",
+									"nodeType": "sequence",
+									"parameters": []
+								}, {
+									"children": [],
+									"id": "B04965R370MRCiaXqJvVk3W3YkAnmLP9",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "_"
+									}, {
+										"name": "value",
+										"value": "nota_michelle_intro.FinishRescue(rescueInfo2, false)"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								} ],
+								"id": "n6UZtwnIovA7DTJP8PZYFONMSHOrXMQC",
+								"nodeType": "selector",
+								"parameters": [ {
+									"name": "active",
+									"value": "false"
+								} ]
+							}, {
+								"children": [],
+								"id": "14T9Y0Tzp8T49QSXZgmCOamoEJI6F3fm",
+								"nodeType": "success",
+								"parameters": []
+							} ],
+							"id": "wwZ9yjruMQuydWqUmKhlALx4Uhhcj34o",
+							"nodeType": "luaCondition",
+							"parameters": [ {
+								"name": "expression",
+								"value": "rescueInfo2.atlas ~= nil and rescueInfo2.unitToRescue ~= nil and rescueInfo2.destinationIndex ~= -1"
+							}, {
+								"name": "repeat",
+								"value": "false"
+							} ]
+						} ],
+						"id": "fCwTGy7wut4ny6DtY7jHFIfwJoStOfxb",
+						"nodeType": "sequence",
+						"parameters": []
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "5fzCxRqhfxiakjlK5rJXYCWr6tAj3lRK",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "rescueInfo3"
+							}, {
+								"name": "value",
+								"value": "nota_michelle_intro.ArrangeNewRescue()"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [ {
+								"children": [ {
+									"children": [ {
+										"children": [],
+										"id": "S6XY5dWd2aRn7xskGzbtWYGbdZ0rAInG",
+										"nodeType": "reference",
+										"parameters": [ {
+											"name": "behaviourName",
+											"value": "nota_falcos_helper_ai.rescueOne"
+										} ],
+										"referenceInputs": [ {
+											"name": "transporter",
+											"value": "rescueInfo3.atlas"
+										}, {
+											"name": "target",
+											"value": "rescueInfo3.unitToRescue"
+										}, {
+											"name": "rescuePosition",
+											"value": "bb.rescueManager.safePositions[rescueInfo3.destinationIndex]"
+										} ],
+										"referenceOutputs": []
+									}, {
+										"children": [],
+										"id": "5C49caAF5hnp9OsfgHfrGUJkqTkroyTc",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "_"
+										}, {
+											"name": "value",
+											"value": "nota_michelle_intro.FinishRescue(rescueInfo3, true)"
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									} ],
+									"id": "ET1P0JcdcN4ntL4kaFcXAx33894zrCiF",
+									"nodeType": "sequence",
+									"parameters": []
+								}, {
+									"children": [],
+									"id": "hIRc3IXkktQWmpM77HIeZ760s4D5C9bv",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "_"
+									}, {
+										"name": "value",
+										"value": "nota_michelle_intro.FinishRescue(rescueInfo3, false)"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								} ],
+								"id": "QwtUaQGrZCpWiVGNU6Gyo65WWVAo7Avo",
+								"nodeType": "selector",
+								"parameters": [ {
+									"name": "active",
+									"value": "false"
+								} ]
+							}, {
+								"children": [],
+								"id": "Sqr1gh3t6QdustltQ0wfVFSgnx9SWJJo",
+								"nodeType": "success",
+								"parameters": []
+							} ],
+							"id": "fhaqFZSbfRUFCMRJyNDYZrcnKEiqFcYE",
+							"nodeType": "luaCondition",
+							"parameters": [ {
+								"name": "expression",
+								"value": "rescueInfo3.atlas ~= nil and rescueInfo3.unitToRescue ~= nil and rescueInfo3.destinationIndex ~= -1"
+							}, {
+								"name": "repeat",
+								"value": "false"
+							} ]
+						} ],
+						"id": "0iSLHr67CrX4gO0WXwjeMZ2JXguE79tw",
+						"nodeType": "sequence",
+						"parameters": []
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "TKHDIA75TtySJPzym9gEpqEthe4f2hfS",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "rescueInfo4"
+							}, {
+								"name": "value",
+								"value": "nota_michelle_intro.ArrangeNewRescue()"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [ {
+								"children": [ {
+									"children": [ {
+										"children": [],
+										"id": "plWdcbB2VEQVSjSKBRxWcV7oBTTE8PFL",
+										"nodeType": "reference",
+										"parameters": [ {
+											"name": "behaviourName",
+											"value": "nota_falcos_helper_ai.rescueOne"
+										} ],
+										"referenceInputs": [ {
+											"name": "transporter",
+											"value": "rescueInfo4.atlas"
+										}, {
+											"name": "target",
+											"value": "rescueInfo4.unitToRescue"
+										}, {
+											"name": "rescuePosition",
+											"value": "bb.rescueManager.safePositions[rescueInfo4.destinationIndex]"
+										} ],
+										"referenceOutputs": []
+									}, {
+										"children": [],
+										"id": "99zE3ksql55Bhqszv1wblcAZe3M1Oate",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "_"
+										}, {
+											"name": "value",
+											"value": "nota_michelle_intro.FinishRescue(rescueInfo4, true)"
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									} ],
+									"id": "gjjzlTJ354fJJld8aTWAujSDNUi1AaQs",
+									"nodeType": "sequence",
+									"parameters": []
+								}, {
+									"children": [],
+									"id": "82C1LZyKZI9xT36oK54UfqBL4EpUvGYV",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "_"
+									}, {
+										"name": "value",
+										"value": "nota_michelle_intro.FinishRescue(rescueInfo4, false)"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								} ],
+								"id": "sy0Dw3NsCKMhLqttNfbsNjGYVD8n8VpM",
+								"nodeType": "selector",
+								"parameters": [ {
+									"name": "active",
+									"value": "false"
+								} ]
+							}, {
+								"children": [],
+								"id": "p45t56h6SIQwAQ7xBv3P6cCwOIX7494r",
+								"nodeType": "success",
+								"parameters": []
+							} ],
+							"id": "8mVkGyQNGTCTQLP0oMm0Dayasoe1GcYK",
+							"nodeType": "luaCondition",
+							"parameters": [ {
+								"name": "expression",
+								"value": "rescueInfo4.atlas ~= nil and rescueInfo4.unitToRescue ~= nil and rescueInfo4.destinationIndex ~= -1"
+							}, {
+								"name": "repeat",
+								"value": "false"
+							} ]
+						} ],
+						"id": "FyzwlA0Weh2C4ocqsPhUrTgIG4MpVP9e",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "Fk7a5EXjTgbGWQHcY2iCBNoCJ6f3jYSr",
+					"nodeType": "parallel",
+					"parameters": [ {
+						"name": "mode",
+						"value": "all-success"
+					} ]
+				} ],
+				"id": "AgqZJ2erFvM1acZCfQ6XMXL0GNmxekfa",
+				"nodeType": "repeat",
+				"parameters": []
+			} ],
+			"id": "L5ZIrsIy7aiZrykLnG1qT8X0khc55YBz",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		} ],
+		"id": "uoadLRu5Kh6LJGzg5kr3uzdYdwYAlgip",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

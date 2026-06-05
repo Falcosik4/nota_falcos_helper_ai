@@ -1,0 +1,471 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 246
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"22YuWe9kmQv3v7eUJjbR2fZra66xR1OR": {
+			"height": 54,
+			"title": "nota_common.manualMissionEnd",
+			"width": 296,
+			"x": 2085,
+			"y": 898
+		},
+		"23RWvN9EekONEOmgeK9bIqmYfpzYn4ra": {
+			"height": 90,
+			"title": "luaCondition - No units to rescue",
+			"width": 335,
+			"x": 1622,
+			"y": 1003
+		},
+		"3k5aULrWpMVAe3V0NnjvbaqKLAoZfCu9": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 2085,
+			"y": 942
+		},
+		"4L9fvNdWyFazJlWj4LiyDemzrOQJdkUe": {
+			"height": 70,
+			"title": "parallel - Start the rescue mission and check end",
+			"width": 390,
+			"x": 572,
+			"y": 561
+		},
+		"74SQp1EP81oazywRIjqC7KFuWlIQlcTv": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 2248,
+			"y": 844
+		},
+		"9SI2bQ5JNAQUK1omXWhg6jQfOZRCU300": {
+			"height": 94,
+			"title": "Mission Info - globally accessible",
+			"width": 288,
+			"x": 588,
+			"y": -350
+		},
+		"BLCWY8nyvadE98teil1qEOcYA5BzHUXR": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 2165,
+			"y": 1038
+		},
+		"DFHWCNDxv6XylBvpkEYgPoEo6fk3UEQy": {
+			"height": 94,
+			"title": "store",
+			"width": 267,
+			"x": 578,
+			"y": -263
+		},
+		"G1LJaxX5TkLK3d4eXDgfCkUVraFVZqyj": {
+			"height": 92,
+			"title": "nota_falcos_helper_ai.InitializeAttackBehavior",
+			"width": 351,
+			"x": 996,
+			"y": 305
+		},
+		"KDXj3w0lbW3xbHVOgJ0iUukXuDu4yY5Y": {
+			"height": 90,
+			"title": "luaCondition - No Atlases",
+			"width": 372,
+			"x": 1638,
+			"y": 907
+		},
+		"KQp1g607DT3hb8CIC99dP44kIKK0fCiS": {
+			"height": 94,
+			"title": "store - Filter units according to type category and coordinates",
+			"width": 470,
+			"x": 574,
+			"y": -87
+		},
+		"R8QzSThANP96jwNmu5KPxBYi6C6Me7WI": {
+			"height": 94,
+			"title": "store",
+			"width": 198,
+			"x": 1665,
+			"y": 641
+		},
+		"VNh9dCgtDuiUROArvmkcNv3n6wZqd6lb": {
+			"height": 72,
+			"title": "nota_falcos_helper_ai.InitializeAerialUnits",
+			"width": 324,
+			"x": 980,
+			"y": 41
+		},
+		"WFNeVU1m97AnHoIVcHAuEkP1VD0KlqRo": {
+			"height": 205,
+			"title": "reference - Rescue mission",
+			"width": 326,
+			"x": 1668,
+			"y": 454
+		},
+		"YcOxWCmYydEVqo6yNsi1ouFHngFoiUTI": {
+			"height": 92,
+			"title": "nota_falcos_helper_ai.InitializeAttackBehavior",
+			"width": 351,
+			"x": 996,
+			"y": 217
+		},
+		"YnSDL9aRroRMAh1cBNU3HustxaJdcGe7": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 325,
+			"y": 1
+		},
+		"fRZ5K7CTDBQSGqusBitrCU3wPZkSTqIJ": {
+			"height": 54,
+			"title": "nota_common.manualMissionEnd",
+			"width": 296,
+			"x": 2247,
+			"y": 797
+		},
+		"gsHstOCoU4s2z3TmZHhFMTVbaHYeC62N": {
+			"height": 72,
+			"title": "nota_falcos_helper_ai.InitializeAerialUnits",
+			"width": 324,
+			"x": 991,
+			"y": 133
+		},
+		"hdupSdz8ws6fJBaOtAY1CZEXKbjrDxcS": {
+			"height": 94,
+			"title": "store - Filter units according to type category and coordinates",
+			"width": 470,
+			"x": 1664,
+			"y": 729
+		},
+		"hh8GvwAQ27Bm6qzVh05wa5dpXGrBDfQs": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1419,
+			"y": 741
+		},
+		"m1XOyfnUhG4ma9aiAsD7ZSxMFOkZxtXb": {
+			"height": 90,
+			"title": "luaCondition - Bonus points",
+			"width": 392,
+			"x": 1657,
+			"y": 814
+		},
+		"m4GhQFtV6aja8Jyv5AlUsjXHbUxC1IOM": {
+			"height": 60,
+			"title": "repeat - Check end + update visibility",
+			"width": 315,
+			"x": 1059,
+			"y": 727
+		},
+		"nkeaU0qbRz84KIO62LREDervLrhNxHSr": {
+			"height": 54,
+			"title": "nota_common.manualMissionEnd",
+			"width": 296,
+			"x": 2162,
+			"y": 993
+		},
+		"u4me7kxFEZzuL5mlP6rt5QaNAls2OBwB": {
+			"height": 70,
+			"title": "roleSplit",
+			"width": 202,
+			"x": 637,
+			"y": 93
+		},
+		"yK8rzxLqrIChQ1Q3uc22SZTJbnd46rPL": {
+			"height": 94,
+			"title": "store - Filter units according to type category and coordinates",
+			"width": 470,
+			"x": 573,
+			"y": -175
+		}
+	},
+	"roles": [ {
+		"categories": [ "nota_michelle_intro.atlasCategory" ],
+		"name": "Atlases"
+	}, {
+		"categories": [ "nota_michelle_intro.peeperCategory" ],
+		"name": "Peepers"
+	}, {
+		"categories": [ "nota_falcos_helper_ai.ttdr-arty" ],
+		"name": "Artillery"
+	}, {
+		"categories": [],
+		"name": "OtherUnits"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "9SI2bQ5JNAQUK1omXWhg6jQfOZRCU300",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "bb.missionInfo"
+			}, {
+				"name": "value",
+				"value": "core.MissionInfo()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "DFHWCNDxv6XylBvpkEYgPoEo6fk3UEQy",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "enemyID"
+			}, {
+				"name": "value",
+				"value": "Spring.GetTeamList()[2]"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "yK8rzxLqrIChQ1Q3uc22SZTJbnd46rPL",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "_"
+			}, {
+				"name": "value",
+				"value": "getVisibleUnits(enemyID)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "KQp1g607DT3hb8CIC99dP44kIKK0fCiS",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "allUnits"
+			}, {
+				"name": "value",
+				"value": "nota_michelle_intro.FilterUnitsForRescueMission()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "VNh9dCgtDuiUROArvmkcNv3n6wZqd6lb",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "landOnIdle",
+					"value": "false"
+				}, {
+					"name": "scriptName",
+					"value": "nota_falcos_helper_ai.InitializeAerialUnits"
+				} ],
+				"scriptName": "nota_falcos_helper_ai.InitializeAerialUnits"
+			}, {
+				"children": [],
+				"id": "gsHstOCoU4s2z3TmZHhFMTVbaHYeC62N",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "landOnIdle",
+					"value": "true"
+				}, {
+					"name": "scriptName",
+					"value": "nota_falcos_helper_ai.InitializeAerialUnits"
+				} ],
+				"scriptName": "nota_falcos_helper_ai.InitializeAerialUnits"
+			}, {
+				"children": [],
+				"id": "YcOxWCmYydEVqo6yNsi1ouFHngFoiUTI",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "attackBehavior",
+					"value": "fireAtWill"
+				}, {
+					"name": "movementBehavior",
+					"value": "true"
+				}, {
+					"name": "scriptName",
+					"value": "nota_falcos_helper_ai.InitializeAttackBehavior"
+				} ],
+				"scriptName": "nota_falcos_helper_ai.InitializeAttackBehavior"
+			}, {
+				"children": [],
+				"id": "G1LJaxX5TkLK3d4eXDgfCkUVraFVZqyj",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "attackBehavior",
+					"value": "holdFire"
+				}, {
+					"name": "movementBehavior",
+					"value": "true"
+				}, {
+					"name": "scriptName",
+					"value": "nota_falcos_helper_ai.InitializeAttackBehavior"
+				} ],
+				"scriptName": "nota_falcos_helper_ai.InitializeAttackBehavior"
+			} ],
+			"id": "u4me7kxFEZzuL5mlP6rt5QaNAls2OBwB",
+			"nodeType": "roleSplit",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "WFNeVU1m97AnHoIVcHAuEkP1VD0KlqRo",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_falcos_helper_ai.scanAndRescue"
+				} ],
+				"referenceInputs": [ {
+					"name": "transports",
+					"value": "allUnits.atlases"
+				}, {
+					"name": "scouts",
+					"value": "allUnits.peepers"
+				}, {
+					"name": "targets",
+					"value": "allUnits.toRescue"
+				} ],
+				"referenceOutputs": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "R8QzSThANP96jwNmu5KPxBYi6C6Me7WI",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "bb.missionInfo"
+						}, {
+							"name": "value",
+							"value": "core.MissionInfo()"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "hdupSdz8ws6fJBaOtAY1CZEXKbjrDxcS",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "_"
+						}, {
+							"name": "value",
+							"value": "getVisibleUnits(enemyID)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "fRZ5K7CTDBQSGqusBitrCU3wPZkSTqIJ",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "scriptName",
+								"value": "nota_common.manualMissionEnd"
+							} ],
+							"scriptName": "nota_common.manualMissionEnd"
+						}, {
+							"children": [],
+							"id": "74SQp1EP81oazywRIjqC7KFuWlIQlcTv",
+							"nodeType": "success",
+							"parameters": []
+						} ],
+						"id": "m1XOyfnUhG4ma9aiAsD7ZSxMFOkZxtXb",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "bb.missionInfo.score >= bb.missionInfo.scoreForBonus"
+						}, {
+							"name": "repeat",
+							"value": "false"
+						} ]
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "22YuWe9kmQv3v7eUJjbR2fZra66xR1OR",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "scriptName",
+								"value": "nota_common.manualMissionEnd"
+							} ],
+							"scriptName": "nota_common.manualMissionEnd"
+						}, {
+							"children": [],
+							"id": "3k5aULrWpMVAe3V0NnjvbaqKLAoZfCu9",
+							"nodeType": "success",
+							"parameters": []
+						} ],
+						"id": "KDXj3w0lbW3xbHVOgJ0iUukXuDu4yY5Y",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "nota_michelle_intro.AllAtlasesDead(allUnits.atlases)"
+						}, {
+							"name": "repeat",
+							"value": "false"
+						} ]
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "nkeaU0qbRz84KIO62LREDervLrhNxHSr",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "scriptName",
+								"value": "nota_common.manualMissionEnd"
+							} ],
+							"scriptName": "nota_common.manualMissionEnd"
+						}, {
+							"children": [],
+							"id": "BLCWY8nyvadE98teil1qEOcYA5BzHUXR",
+							"nodeType": "success",
+							"parameters": []
+						} ],
+						"id": "23RWvN9EekONEOmgeK9bIqmYfpzYn4ra",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "nota_michelle_intro.AllUnitsRescuedOrDead()"
+						}, {
+							"name": "repeat",
+							"value": "false"
+						} ]
+					} ],
+					"id": "hh8GvwAQ27Bm6qzVh05wa5dpXGrBDfQs",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "m4GhQFtV6aja8Jyv5AlUsjXHbUxC1IOM",
+				"nodeType": "repeat",
+				"parameters": []
+			} ],
+			"id": "4L9fvNdWyFazJlWj4LiyDemzrOQJdkUe",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		} ],
+		"id": "YnSDL9aRroRMAh1cBNU3HustxaJdcGe7",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
