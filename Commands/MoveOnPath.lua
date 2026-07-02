@@ -12,7 +12,7 @@ function getInfo()
 				name = "uncompressedPath",
 				variableType = "expression",
 				componentType = "editBox",
-				defaultValue = "",
+				defaultValue = "nil",
 			},
 			{
 				name = "moveBack",
@@ -26,6 +26,13 @@ function getInfo()
 				componentType = "editBox",
 				defaultValue = 40,
 			},
+			{
+				name="compressing",
+				variableType = "expression",
+				componentType = "editBox",
+				defaultValue = "true",
+			}
+
 		}
 	}
 end
@@ -138,6 +145,10 @@ function Run(self, units, parameter)
 	local threshold = parameter.threshold
 	local moveBack = parameter.moveBack
 
+	if parameter.uncompressedPath == nil then
+		return SUCCESS
+	end
+
 	--Spring.Echo("Is path setup ? " .. tostring(self.setupPath))
 
 	if self.setupPath == nil or self.setupPath ==false then
@@ -148,7 +159,11 @@ function Run(self, units, parameter)
 		-- pick the spring command implementing the move
 		local cmdID = CMD.MOVE
 
-		self.compressedPath = getCompressedPath(uncompressedPath)
+		if parameter.compressing == true then
+			self.compressedPath = getCompressedPath(uncompressedPath)
+		else
+			self.compressedPath = uncompressedPath
+		end
 
 		local i = 1
 		if moveBack then

@@ -24,27 +24,40 @@ end
 function checkExistingUnits()
 	for unitID, unitData in pairs(units) do
 		local unitSighted = Spring.IsUnitInRadar(unitID)
-		local positionSighted = Spring.IsPosInRadar(unitData.pos.x, unitData.pos.y, unitData.pos.z)
+		--local positionSighted = Spring.IsPosInRadar(unitData.pos.x, unitData.pos.y, unitData.pos.z)
+		local LosOrRadar, inLos, inRadar, jammed = Spring.GetPositionLosState(unitData.pos.x, unitData.pos.y, unitData.pos.z, 0)	
 
-		if  (unitSighted==nil or not unitSighted) and positionSighted then
+		if  (unitSighted==nil or not unitSighted) and LosOrRadar then
 			units[unitID] = nil
 		end
 	end
 end
 
-return function(teamID)
-    local visibleUnits = Spring.GetTeamUnits(teamID)
+return function(teamIDs)
+
+	local allUnits = {}
 
 	checkExistingUnits()
 
-	for i=1, #visibleUnits do
-		local unitID = visibleUnits[i]
-		local x, y, z = Spring.GetUnitPosition(unitID)
-		units[unitID] = { pos = Vec3(x, y, z) }
-	end
+	for j=1, #teamIDs do
+		local teamID = teamIDs[j]
+		
+		local visibleUnits = Spring.GetTeamUnits(teamID)
+
+
+
+		for i=1, #visibleUnits do
+			local unitID = visibleUnits[i]
+			
+			local x, y, z = Spring.GetUnitPosition(unitID)
+			units[unitID] = { pos = Vec3(x, y, z) }
+			table.insert(allUnits, unitID)
+		end
+
+	end 
 
 	Script.LuaUI.units_update(units, {1, 0, 0, 0.5})
 	Script.LuaUI.mapGrid_updateEnemyRange(units, UnitDefs, WeaponDefs)
 
-	return visibleUnits
+	return allUnits
 end

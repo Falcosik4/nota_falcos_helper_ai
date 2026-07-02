@@ -1,0 +1,286 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"3321gLv5RHbFQQBydCOKEgHvG69ULMyA": {
+			"height": 60,
+			"title": "Purchase 1",
+			"width": 153,
+			"x": 551,
+			"y": -239
+		},
+		"BDP2uleinvXItw0m5meH4lNAooQdWOVa": {
+			"height": 94,
+			"title": "Get the best buy",
+			"width": 186,
+			"x": 832,
+			"y": -386
+		},
+		"BGA1RLBqEs9r3tPB8dJ0OBMz0BBidrs0": {
+			"height": 60,
+			"title": "Purchases",
+			"width": 148,
+			"x": 250,
+			"y": 31
+		},
+		"CIJtlD2w099rfQoXrqECMyONFKvnqqJ9": {
+			"height": 94,
+			"title": "store",
+			"width": 169,
+			"x": 831,
+			"y": -485
+		},
+		"CauIyuIcVUUVRJApYdd9IzG8BCbtEl05": {
+			"height": 94,
+			"title": "Get the best buy",
+			"width": 186,
+			"x": 868,
+			"y": 223
+		},
+		"KdBsku5kYWWSLhS6zDEBwpjTGd8LrWAl": {
+			"height": 94,
+			"title": "Update prepaid metal if purchase successful",
+			"width": 362,
+			"x": 832,
+			"y": -196
+		},
+		"LBAk7D0XYKkhEuD6QS8vScTed0QaG51i": {
+			"height": 94,
+			"title": "Update prepaid metal if purchase successful",
+			"width": 362,
+			"x": 852,
+			"y": 397
+		},
+		"ONliQ1GJZZjTejnaz3T7Vdcl8Oa12Hp8": {
+			"height": 94,
+			"title": "Update prepaid metal if purchase successful",
+			"width": 362,
+			"x": 835,
+			"y": 114
+		},
+		"SHPHHQlHLAwuw6rEDhzCpH7CjOuClDmQ": {
+			"height": 94,
+			"title": "Get the best buy",
+			"width": 186,
+			"x": 847,
+			"y": -70
+		},
+		"hbUxj0aZfzMJpImn2OS46unuFGkPJ16D": {
+			"height": 92,
+			"title": "Buy the best buy, if possible (BuyUnit)",
+			"width": 301,
+			"x": 832,
+			"y": -292
+		},
+		"jm7Vj6fH0IdKZvoD3gc1YDpi0eAUSbJ3": {
+			"height": 60,
+			"title": "Purchase 2",
+			"width": 153,
+			"x": 610,
+			"y": 57
+		},
+		"knJghPtW4aBUlZurwWRArWcOaUS6hYka": {
+			"height": 92,
+			"title": "Buy the best buy, if possible (BuyUnit)",
+			"width": 301,
+			"x": 855,
+			"y": 322
+		},
+		"lUkYj3b7NxS3HsZRNNcYKqYsGq4kSc0y": {
+			"height": 60,
+			"title": "Purchase 3",
+			"width": 153,
+			"x": 613,
+			"y": 328
+		},
+		"tJSTqO07Qz1Y2lUkuWBkdsbDgguWd2Dj": {
+			"height": 92,
+			"title": "Buy the best buy, if possible (BuyUnit)",
+			"width": 301,
+			"x": 835,
+			"y": 28
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "CIJtlD2w099rfQoXrqECMyONFKvnqqJ9",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "prepaidMetal"
+				}, {
+					"name": "value",
+					"value": "0"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "BDP2uleinvXItw0m5meH4lNAooQdWOVa",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bestBuy"
+				}, {
+					"name": "value",
+					"value": "GetBestBuy()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "hbUxj0aZfzMJpImn2OS46unuFGkPJ16D",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "bestBuy"
+				}, {
+					"name": "prepaidMetal",
+					"value": "prepaidMetal"
+				}, {
+					"name": "scriptName",
+					"value": "nota_falcos_helper_ai.BuyUnit"
+				} ],
+				"scriptName": "nota_falcos_helper_ai.BuyUnit"
+			}, {
+				"children": [],
+				"id": "KdBsku5kYWWSLhS6zDEBwpjTGd8LrWAl",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "prepaidMetal"
+				}, {
+					"name": "value",
+					"value": "prepaidMetal+bb.prices[bestBuy]"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "3321gLv5RHbFQQBydCOKEgHvG69ULMyA",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "SHPHHQlHLAwuw6rEDhzCpH7CjOuClDmQ",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bestBuy"
+				}, {
+					"name": "value",
+					"value": "GetBestBuy()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "tJSTqO07Qz1Y2lUkuWBkdsbDgguWd2Dj",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "bestBuy"
+				}, {
+					"name": "prepaidMetal",
+					"value": "prepaidMetal"
+				}, {
+					"name": "scriptName",
+					"value": "nota_falcos_helper_ai.BuyUnit"
+				} ],
+				"scriptName": "nota_falcos_helper_ai.BuyUnit"
+			}, {
+				"children": [],
+				"id": "ONliQ1GJZZjTejnaz3T7Vdcl8Oa12Hp8",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "prepaidMetal"
+				}, {
+					"name": "value",
+					"value": "prepaidMetal+bb.prices[bestBuy]"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "jm7Vj6fH0IdKZvoD3gc1YDpi0eAUSbJ3",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [],
+				"id": "CauIyuIcVUUVRJApYdd9IzG8BCbtEl05",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bestBuy"
+				}, {
+					"name": "value",
+					"value": "GetBestBuy()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "knJghPtW4aBUlZurwWRArWcOaUS6hYka",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "bestBuy"
+				}, {
+					"name": "prepaidMetal",
+					"value": "prepaidMetal"
+				}, {
+					"name": "scriptName",
+					"value": "nota_falcos_helper_ai.BuyUnit"
+				} ],
+				"scriptName": "nota_falcos_helper_ai.BuyUnit"
+			}, {
+				"children": [],
+				"id": "LBAk7D0XYKkhEuD6QS8vScTed0QaG51i",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "prepaidMetal"
+				}, {
+					"name": "value",
+					"value": "prepaidMetal+bb.prices[bestBuy]"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "lUkYj3b7NxS3HsZRNNcYKqYsGq4kSc0y",
+			"nodeType": "sequence",
+			"parameters": []
+		} ],
+		"id": "BGA1RLBqEs9r3tPB8dJ0OBMz0BBidrs0",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

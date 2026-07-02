@@ -1,0 +1,254 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 188,
+			"width": 219
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "transport"
+	}, {
+		"command": "Variable",
+		"name": "path"
+	}, {
+		"command": "Variable",
+		"name": "passenger"
+	}, {
+		"command": "Variable",
+		"name": "targetPos"
+	}, {
+		"command": "Variable",
+		"name": "offsetVec"
+	} ],
+	"outputs": [],
+	"properties": {
+		"89vGyRrDgjg2DquNFmORhCp1nYSxK6HD": {
+			"height": 96,
+			"title": "Calculate final target position from  offset",
+			"width": 340,
+			"x": 646,
+			"y": 249
+		},
+		"9ArkkXB2oMnftkn9rk51LRZsZPCOxQLl": {
+			"height": 94,
+			"title": "store",
+			"width": 336,
+			"x": 657,
+			"y": 551
+		},
+		"Fq9OfnZCapdllvMm0q0KGZvLBIDkJiX4": {
+			"height": 92,
+			"title": "Load passenger (nota_michelle_intro.loadUnit)",
+			"width": 378,
+			"x": 646,
+			"y": 21
+		},
+		"LsM3IP2OzJqS8LzyfjYPdxJ8MfvSwbd2": {
+			"height": 94,
+			"title": "Get passenger position",
+			"width": 346,
+			"x": 652,
+			"y": -179
+		},
+		"Qbu954Su1dco5lC3mRHVpMMnsPH7gEAs": {
+			"height": 60,
+			"title": "sequence",
+			"width": 144,
+			"x": 395,
+			"y": 69
+		},
+		"iGD2KrZJRkfqQOi3BObFPRGoxwd6ZH0R": {
+			"height": 152,
+			"title": "Transfer passenger along path (MoveOnPath)",
+			"width": 374,
+			"x": 650,
+			"y": 102
+		},
+		"mtZYJOL9rWnGkNqiog3An2BBZS2CQ4oT": {
+			"height": 112,
+			"title": "Move to final position (nota_michelle_intro.moveUnit)",
+			"width": 560,
+			"x": 645,
+			"y": 337
+		},
+		"nw1UUZKsZXoD5TaeV8kEz6kHgh7DBJTq": {
+			"height": 72,
+			"title": "wait to lose momentum",
+			"width": 228,
+			"x": 656,
+			"y": 450
+		},
+		"rA2rbZdLHSLr4BUjxzMvXbKOyoHGea1L": {
+			"height": 114,
+			"title": "Unload passenger (nota_michelle_intro.unloadUnit)",
+			"width": 572,
+			"x": 655,
+			"y": 660
+		},
+		"yidNaSdf1EHUouxOAwxQJEBGTJDScMLO": {
+			"height": 112,
+			"title": "Move towards passenger (nota_michelle_intro.moveUnit)",
+			"width": 443,
+			"x": 647,
+			"y": -82
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "LsM3IP2OzJqS8LzyfjYPdxJ8MfvSwbd2",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "passengerPos"
+			}, {
+				"name": "value",
+				"value": "Vec3(Spring.GetUnitPosition(passenger))"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "yidNaSdf1EHUouxOAwxQJEBGTJDScMLO",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "assigned_unit",
+				"value": "transport"
+			}, {
+				"name": "position",
+				"value": "passengerPos"
+			}, {
+				"name": "tolerance",
+				"value": "15"
+			}, {
+				"name": "scriptName",
+				"value": "nota_michelle_intro.moveUnit"
+			} ],
+			"scriptName": "nota_michelle_intro.moveUnit"
+		}, {
+			"children": [],
+			"id": "Fq9OfnZCapdllvMm0q0KGZvLBIDkJiX4",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unit_to_load",
+				"value": "passenger"
+			}, {
+				"name": "transporter",
+				"value": "transport"
+			}, {
+				"name": "scriptName",
+				"value": "nota_michelle_intro.loadUnit"
+			} ],
+			"scriptName": "nota_michelle_intro.loadUnit"
+		}, {
+			"children": [],
+			"id": "iGD2KrZJRkfqQOi3BObFPRGoxwd6ZH0R",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unit",
+				"value": "transport"
+			}, {
+				"name": "uncompressedPath",
+				"value": "path"
+			}, {
+				"name": "moveBack",
+				"value": "false"
+			}, {
+				"name": "threshold",
+				"value": 40
+			}, {
+				"name": "compressing",
+				"value": "false"
+			}, {
+				"name": "scriptName",
+				"value": "nota_falcos_helper_ai.MoveOnPath"
+			} ],
+			"scriptName": "nota_falcos_helper_ai.MoveOnPath"
+		}, {
+			"children": [],
+			"id": "89vGyRrDgjg2DquNFmORhCp1nYSxK6HD",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "finalTarget"
+			}, {
+				"name": "value",
+				"value": "targetPos + offsetVec"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "mtZYJOL9rWnGkNqiog3An2BBZS2CQ4oT",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "assigned_unit",
+				"value": "transport"
+			}, {
+				"name": "position",
+				"value": "finalTarget"
+			}, {
+				"name": "tolerance",
+				"value": "30"
+			}, {
+				"name": "scriptName",
+				"value": "nota_michelle_intro.moveUnit"
+			} ],
+			"scriptName": "nota_michelle_intro.moveUnit"
+		}, {
+			"children": [],
+			"id": "nw1UUZKsZXoD5TaeV8kEz6kHgh7DBJTq",
+			"nodeType": "wait",
+			"parameters": [ {
+				"name": "time",
+				"value": 2
+			} ]
+		}, {
+			"children": [],
+			"id": "9ArkkXB2oMnftkn9rk51LRZsZPCOxQLl",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "transportPos"
+			}, {
+				"name": "value",
+				"value": "Vec3(Spring.GetUnitPosition(transport))"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "rA2rbZdLHSLr4BUjxzMvXbKOyoHGea1L",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "unit_to_unload",
+				"value": "passenger"
+			}, {
+				"name": "transporter",
+				"value": "transport"
+			}, {
+				"name": "position",
+				"value": "transportPos"
+			}, {
+				"name": "scriptName",
+				"value": "nota_michelle_intro.unloadUnit"
+			} ],
+			"scriptName": "nota_michelle_intro.unloadUnit"
+		} ],
+		"id": "Qbu954Su1dco5lC3mRHVpMMnsPH7gEAs",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

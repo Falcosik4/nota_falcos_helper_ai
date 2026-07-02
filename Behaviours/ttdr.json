@@ -34,7 +34,7 @@
 			"height": 70,
 			"title": "parallel - Start the rescue mission and check end",
 			"width": 390,
-			"x": 572,
+			"x": 573,
 			"y": 561
 		},
 		"74SQp1EP81oazywRIjqC7KFuWlIQlcTv": {
@@ -48,7 +48,7 @@
 			"height": 94,
 			"title": "Mission Info - globally accessible",
 			"width": 288,
-			"x": 588,
+			"x": 589,
 			"y": -350
 		},
 		"BLCWY8nyvadE98teil1qEOcYA5BzHUXR": {
@@ -62,14 +62,14 @@
 			"height": 94,
 			"title": "store",
 			"width": 267,
-			"x": 578,
+			"x": 580,
 			"y": -263
 		},
 		"G1LJaxX5TkLK3d4eXDgfCkUVraFVZqyj": {
 			"height": 92,
 			"title": "nota_falcos_helper_ai.InitializeAttackBehavior",
-			"width": 351,
-			"x": 996,
+			"width": 371,
+			"x": 997,
 			"y": 305
 		},
 		"KDXj3w0lbW3xbHVOgJ0iUukXuDu4yY5Y": {
@@ -83,7 +83,7 @@
 			"height": 94,
 			"title": "store - Filter units according to type category and coordinates",
 			"width": 470,
-			"x": 574,
+			"x": 575,
 			"y": -87
 		},
 		"R8QzSThANP96jwNmu5KPxBYi6C6Me7WI": {
@@ -96,8 +96,8 @@
 		"VNh9dCgtDuiUROArvmkcNv3n6wZqd6lb": {
 			"height": 72,
 			"title": "nota_falcos_helper_ai.InitializeAerialUnits",
-			"width": 324,
-			"x": 980,
+			"width": 344,
+			"x": 981,
 			"y": 41
 		},
 		"WFNeVU1m97AnHoIVcHAuEkP1VD0KlqRo": {
@@ -110,15 +110,15 @@
 		"YcOxWCmYydEVqo6yNsi1ouFHngFoiUTI": {
 			"height": 92,
 			"title": "nota_falcos_helper_ai.InitializeAttackBehavior",
-			"width": 351,
-			"x": 996,
+			"width": 371,
+			"x": 997,
 			"y": 217
 		},
 		"YnSDL9aRroRMAh1cBNU3HustxaJdcGe7": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 325,
+			"x": 326,
 			"y": 1
 		},
 		"fRZ5K7CTDBQSGqusBitrCU3wPZkSTqIJ": {
@@ -131,8 +131,8 @@
 		"gsHstOCoU4s2z3TmZHhFMTVbaHYeC62N": {
 			"height": 72,
 			"title": "nota_falcos_helper_ai.InitializeAerialUnits",
-			"width": 324,
-			"x": 991,
+			"width": 344,
+			"x": 992,
 			"y": 133
 		},
 		"hdupSdz8ws6fJBaOtAY1CZEXKbjrDxcS": {
@@ -146,7 +146,7 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1419,
+			"x": 1420,
 			"y": 741
 		},
 		"m1XOyfnUhG4ma9aiAsD7ZSxMFOkZxtXb": {
@@ -160,7 +160,7 @@
 			"height": 60,
 			"title": "repeat - Check end + update visibility",
 			"width": 315,
-			"x": 1059,
+			"x": 1060,
 			"y": 727
 		},
 		"nkeaU0qbRz84KIO62LREDervLrhNxHSr": {
@@ -174,14 +174,14 @@
 			"height": 70,
 			"title": "roleSplit",
 			"width": 202,
-			"x": 637,
+			"x": 638,
 			"y": 93
 		},
 		"yK8rzxLqrIChQ1Q3uc22SZTJbnd46rPL": {
 			"height": 94,
 			"title": "store - Filter units according to type category and coordinates",
 			"width": 470,
-			"x": 573,
+			"x": 575,
 			"y": -175
 		}
 	},
@@ -220,10 +220,10 @@
 			"nodeType": "luaCommand",
 			"parameters": [ {
 				"name": "var",
-				"value": "enemyID"
+				"value": "enemyIDs"
 			}, {
 				"name": "value",
-				"value": "Spring.GetTeamList()[2]"
+				"value": "Spring.GetTeamList(1)"
 			}, {
 				"name": "scriptName",
 				"value": "store"
@@ -238,7 +238,7 @@
 				"value": "_"
 			}, {
 				"name": "value",
-				"value": "getVisibleUnits(enemyID)"
+				"value": "getVisibleUnits(enemyIDs)"
 			}, {
 				"name": "scriptName",
 				"value": "store"
@@ -367,7 +367,7 @@
 							"value": "_"
 						}, {
 							"name": "value",
-							"value": "getVisibleUnits(enemyID)"
+							"value": "getVisibleUnits(enemyIDs)"
 						}, {
 							"name": "scriptName",
 							"value": "store"

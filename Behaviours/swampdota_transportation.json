@@ -1,0 +1,1302 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 247
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "artyStarterPos"
+	}, {
+		"command": "Variable",
+		"name": "seerStarterPos"
+	} ],
+	"outputs": [],
+	"properties": {
+		"0J29Gge6FteHxdeB9lc09D5wBwTOdnWb": {
+			"height": 151,
+			"title": "Order more atlases (AddToShoppingList)",
+			"width": 456,
+			"x": 2606,
+			"y": -270
+		},
+		"0qmVJBq7jgucFCwwZKPgoSKX01d9tTSj": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1563,
+			"y": 2187
+		},
+		"1WxO1aniEgVqlkxrqiUATGHGHZDcwgT7": {
+			"height": 132,
+			"title": "Order seer (AddToShoppingList)",
+			"width": 329,
+			"x": 3077,
+			"y": 90
+		},
+		"4VbU3GTCFyufrtXQBkQMBE9xFN2t5PmA": {
+			"height": 54,
+			"title": "Do nothing",
+			"width": 150,
+			"x": 2839,
+			"y": 1599
+		},
+		"6KMHGBr4wfhNaxsFC1ugslAMaAxBLsnn": {
+			"height": 94,
+			"title": "Update atlas status",
+			"width": 379,
+			"x": 2857,
+			"y": 1221
+		},
+		"6bIYqnfj1BFXElZ2RklT6qNGj5KlKUXC": {
+			"height": 94,
+			"title": "store",
+			"width": 379,
+			"x": 2161,
+			"y": 2290
+		},
+		"7irMjVdhPNfYE6GqqktfhJjAXfB0CZyA": {
+			"height": 94,
+			"title": "Update atlases status",
+			"width": 534,
+			"x": 2086,
+			"y": -362
+		},
+		"7nGq2QdUtjnkbp13sGxv508YKwKm4fyC": {
+			"height": 90,
+			"title": "Check if there is an available luger",
+			"width": 299,
+			"x": 2499,
+			"y": 1583
+		},
+		"8p4SUvjJmSnMf0nzRkfQBxahENEmzTAo": {
+			"height": 94,
+			"title": "Get seer",
+			"width": 492,
+			"x": 2527,
+			"y": -15
+		},
+		"8uq9ucMBBf1Xt2nMgfRmA9WNRuD21K6X": {
+			"height": 60,
+			"title": "Transport a unit if free",
+			"width": 222,
+			"x": 1665,
+			"y": 781
+		},
+		"Ae0GKbQZDKYXqKbJWL5ORDf9hQpa8g5u": {
+			"height": 92,
+			"title": "Update atlas status",
+			"width": 282,
+			"x": 2880,
+			"y": 733
+		},
+		"AmncMmM6E2ObK13Nk8RQSPCBhQmmoAvY": {
+			"height": 70,
+			"title": "Run",
+			"width": 202,
+			"x": 860,
+			"y": 337
+		},
+		"AqRdg3FRSlO7FZwZtFOHPc5ZwQrpJhPH": {
+			"height": 94,
+			"title": "announce seer transportation",
+			"width": 379,
+			"x": 2866,
+			"y": 1127
+		},
+		"CG1ZQqyVXLaCGnFbjS9gIvN7umtlprrA": {
+			"height": 92,
+			"title": "Atlases",
+			"width": 196,
+			"x": 856,
+			"y": -317
+		},
+		"Dm5BmyKPgCY2DopfgqfRh07Vm4DWq1WT": {
+			"height": 94,
+			"title": "Reset atlas status to free",
+			"width": 379,
+			"x": 3146,
+			"y": 2029
+		},
+		"EBaIwPWuGppl1TRTtCvFIbUa9jN5ejBC": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1520,
+			"y": 779
+		},
+		"EMcMhm18s7TCUnfr4ixUoLGNwBOId7s4": {
+			"height": 60,
+			"title": "Start",
+			"width": 143,
+			"x": 361,
+			"y": 42
+		},
+		"EYzWgxSarKwiyRTPyhxxzVvoHJoDyywn": {
+			"height": 92,
+			"title": "Lugers",
+			"width": 279,
+			"x": 855,
+			"y": -139
+		},
+		"F61JbwKUzD8vqc371wm6WAVf3dPOLzpQ": {
+			"height": 94,
+			"title": "Get atlases",
+			"width": 492,
+			"x": 2081,
+			"y": -458
+		},
+		"GBU0G4bVsTHPFpd0v9YmIbC38k4NEEti": {
+			"height": 92,
+			"title": "store",
+			"width": 209,
+			"x": 2869,
+			"y": 649
+		},
+		"GUZFv3UbhwD9tVMDPB6WhDb9xEm0rq1Q": {
+			"height": 92,
+			"title": "store",
+			"width": 226,
+			"x": 1433,
+			"y": 535
+		},
+		"H5nTLxxqSiXiB8p5Lc17LMblWJ1x7uOv": {
+			"height": 88,
+			"title": "First atlas transports the seer",
+			"width": 267,
+			"x": 1943,
+			"y": 967
+		},
+		"H8KyAksZuP6iG7Uns3gvhPKeUo7NJMdm": {
+			"height": 94,
+			"title": "store luger to the combat ready table",
+			"width": 332,
+			"x": 3145,
+			"y": 1935
+		},
+		"IEgoCX1SSApciyFxiiPZyjjoLDajyysq": {
+			"height": 60,
+			"title": "Transport the luger",
+			"width": 203,
+			"x": 2840,
+			"y": 1711
+		},
+		"IKMA85hqClplV6gUqPdhTGPTpOZUuevF": {
+			"height": 94,
+			"title": "Reset atlas status to free",
+			"width": 379,
+			"x": 2760,
+			"y": 2852
+		},
+		"IwPth0tpw2B0xm8NdkNMFOvLceMSX4Hb": {
+			"height": 54,
+			"title": "Do nothing",
+			"width": 150,
+			"x": 2614,
+			"y": -111
+		},
+		"IxOFY2AdDB0oxjCCPVMoQFWyOW3lsI01": {
+			"height": 94,
+			"title": "store luger to the combat ready table",
+			"width": 332,
+			"x": 2759,
+			"y": 2758
+		},
+		"JHJyAqcAiXGwVj031K8nHc3KkHBh9f3W": {
+			"height": 92,
+			"title": "Transport destination",
+			"width": 257,
+			"x": 856,
+			"y": 48
+		},
+		"JI00chUdQu7pWXT1S46NSdMKhM8xvKUi": {
+			"height": 214,
+			"title": "reference",
+			"width": 520,
+			"x": 3143,
+			"y": 1744
+		},
+		"JfEP3vNprpMV50TiokTsmlolnHxURZBB": {
+			"height": 60,
+			"title": "Atlas1",
+			"width": 143,
+			"x": 1159,
+			"y": 596
+		},
+		"JrKlXjCjWVM6P59oX7v6d2XOHzelcSiN": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 2325,
+			"y": -3
+		},
+		"JrV5Mwft0YpLtpMhN5vyqvb0J9ehM8DQ": {
+			"height": 214,
+			"title": "Transport seer",
+			"width": 520,
+			"x": 2865,
+			"y": 833
+		},
+		"M3ZHXEQZrACv5Op5J5xfJvI6r76dBTyZ": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 396,
+			"x": 1965,
+			"y": 2151
+		},
+		"QfUnSdHfvS6Rwt6ow5ew9cn8F1nHePPV": {
+			"height": 94,
+			"title": "Shopping cart for ordering units",
+			"width": 424,
+			"x": 978,
+			"y": -581
+		},
+		"RItwSs0kysOKXyMq3ByljoM61cBMWAsj": {
+			"height": 90,
+			"title": "Not enough atlases ?",
+			"width": 408,
+			"x": 2101,
+			"y": -263
+		},
+		"RWHsm4pedy39aAnRmKV8HIf8CiPcu8c1": {
+			"height": 60,
+			"title": "Update values",
+			"width": 173,
+			"x": 1721,
+			"y": 287
+		},
+		"S0cjaK1b4yA0wPtiOKGK4HaYGj3K91QH": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1751,
+			"y": 2180
+		},
+		"SumnAlbQ3VkiHmDNJdJrzywnPYC1KEfb": {
+			"height": 60,
+			"title": "Setup",
+			"width": 143,
+			"x": 593,
+			"y": -163
+		},
+		"UE1nGJO88AmQ1XSU65Lpa4CkkPvtvbPG": {
+			"height": 92,
+			"title": "Transported units",
+			"width": 196,
+			"x": 981,
+			"y": -402
+		},
+		"UY3L3J6VAY7InYheHSwPva0IpJoqWewM": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1470,
+			"y": 338
+		},
+		"VB0DqQag6BmYPvkm1mYYyrpxLBUWc9bM": {
+			"height": 54,
+			"title": "Do nothing",
+			"width": 150,
+			"x": 2476,
+			"y": 2415
+		},
+		"YJj0aUIlleQSwVyLpDk5TTc1URtV5m3A": {
+			"height": 92,
+			"title": "Availability of atlases",
+			"width": 236,
+			"x": 971,
+			"y": -228
+		},
+		"ZLW0n2FsVZaRmUiJddAHrtDwsi8a46aP": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 251,
+			"x": 2869,
+			"y": 587
+		},
+		"aRKYtFZDhVUVk4ugEvGZ9oYiKL8AAJTa": {
+			"height": 90,
+			"title": "Doesn't have seer ? ",
+			"width": 397,
+			"x": 2532,
+			"y": 83
+		},
+		"dp3XrCfdjPUdNqeHlAP2OtGsfPOkYn6G": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 396,
+			"x": 1923,
+			"y": 743
+		},
+		"fSG9FkcUnPyWbtrvo5IQHfd3bMvE3q8z": {
+			"height": 90,
+			"title": "Check if decapitated",
+			"width": 211,
+			"x": 2025,
+			"y": 378
+		},
+		"fWPltSf9FU9afZhUOr4qKWke2r53JLu7": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 260,
+			"x": 1553,
+			"y": 2004
+		},
+		"hvYhcMaJ10pYVWfRiPhIpLGqVfnqhd4o": {
+			"height": 94,
+			"title": "Get a free luger for transport",
+			"width": 379,
+			"x": 2515,
+			"y": 1458
+		},
+		"hvhw0SeKt4o88RO2hJtJR8znANPG5WPA": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 2324,
+			"y": 1479
+		},
+		"jUiBShJMB5MZCREJHWRhNy9OQUdBl6eg": {
+			"height": 94,
+			"title": "Get lugers",
+			"width": 533,
+			"x": 2028,
+			"y": 196
+		},
+		"jocJGLALbVRzefvs8PXta8gzynE2bpqT": {
+			"height": 94,
+			"title": "More forward transportation",
+			"width": 387,
+			"x": 2289,
+			"y": 357
+		},
+		"lBViKAe5Nh9QxvIo0ViaXQKOnNkpDpD5": {
+			"height": 60,
+			"title": "Atlas2",
+			"width": 143,
+			"x": 1252,
+			"y": 2019
+		},
+		"mK2iXCux6B6neg5900yZ3wk58Hp4qLDh": {
+			"height": 94,
+			"title": "More conservative transportation",
+			"width": 345,
+			"x": 2293,
+			"y": 458
+		},
+		"mh4e5ckMSvnsJgwSPfVll4DsOSHmil0T": {
+			"height": 92,
+			"title": "Update atlas status",
+			"width": 282,
+			"x": 3144,
+			"y": 1648
+		},
+		"o4nWSBehJGRWAgJ4JGMQyvjuXBFUqVem": {
+			"height": 95,
+			"title": "Whether seer has been transported already",
+			"width": 358,
+			"x": 855,
+			"y": -498
+		},
+		"q8mARTn3r8Exp9IvydgUlmlJWxp1uISf": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 2049,
+			"y": -9
+		},
+		"qnJJWFgpPwFMsNR8A3yLiwKWR2RgX5VA": {
+			"height": 90,
+			"title": "Check if there is an available luger",
+			"width": 299,
+			"x": 2118,
+			"y": 2406
+		},
+		"r9poHOGZZv5DVoPYLhXXlekyqppKnhDC": {
+			"height": 92,
+			"title": "Update atlas status",
+			"width": 282,
+			"x": 2757,
+			"y": 2471
+		},
+		"rT1EX6TdCpfNzKRRmnrehdukOxuTD2Pi": {
+			"height": 92,
+			"title": "Seer",
+			"width": 279,
+			"x": 993,
+			"y": -51
+		},
+		"rhY0GkLKf1Ax5Ovz73zthQaLX3tbj9s5": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1941,
+			"y": 2302
+		},
+		"sV9cGhYb0JKqKjQQUsf0dRzIkekSsjDI": {
+			"height": 60,
+			"title": "Transport the seer",
+			"width": 199,
+			"x": 2598,
+			"y": 801
+		},
+		"stSwJYYhzmDwynpmlBx4TmTwfUYhul3j": {
+			"height": 94,
+			"title": "store seer to the combat ready table",
+			"width": 332,
+			"x": 2856,
+			"y": 1037
+		},
+		"tTM6piL2BTUcOE92w6nDJ4bGy0k1mHfu": {
+			"height": 214,
+			"title": "reference",
+			"width": 520,
+			"x": 2759,
+			"y": 2559
+		},
+		"uq830OqGJt8AW4NMec4opJm3CiDpERHw": {
+			"height": 60,
+			"title": "Transport the luger",
+			"width": 203,
+			"x": 2461,
+			"y": 2534
+		},
+		"wkDNJgv3SDb503RU1tofeXaH3bGFeyqe": {
+			"height": 54,
+			"title": "Do nothing",
+			"width": 150,
+			"x": 3092,
+			"y": 234
+		},
+		"xWnAiYBTzgpr5ecAtj2jUaVq5VpM9qGp": {
+			"height": 92,
+			"title": "store",
+			"width": 226,
+			"x": 1555,
+			"y": 2076
+		},
+		"yEfoS39NO3LTs8VKfvWb6SP29kuVc1Xv": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 260,
+			"x": 1438,
+			"y": 466
+		},
+		"zBv6Y2qeiUvr0S1o4DDK6dast6MQqHwz": {
+			"height": 54,
+			"title": "Do nothing",
+			"width": 150,
+			"x": 2315,
+			"y": 67
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "QfUnSdHfvS6Rwt6ow5ew9cn8F1nHePPV",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "shoppingCart"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "o4nWSBehJGRWAgJ4JGMQyvjuXBFUqVem",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "transportedSeer"
+				}, {
+					"name": "value",
+					"value": "false"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "UE1nGJO88AmQ1XSU65Lpa4CkkPvtvbPG",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.transport"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "CG1ZQqyVXLaCGnFbjS9gIvN7umtlprrA",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.transport.atlases"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "YJj0aUIlleQSwVyLpDk5TTc1URtV5m3A",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.transport.atlasesStatus"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "EYzWgxSarKwiyRTPyhxxzVvoHJoDyywn",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.transport.lugers"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "rT1EX6TdCpfNzKRRmnrehdukOxuTD2Pi",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.transport.seer"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "JHJyAqcAiXGwVj031K8nHc3KkHBh9f3W",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "finalDestination"
+				}, {
+					"name": "value",
+					"value": "starterPos"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "SumnAlbQ3VkiHmDNJdJrzywnPYC1KEfb",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "F61JbwKUzD8vqc371wm6WAVf3dPOLzpQ",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "bb.transport.atlases"
+						}, {
+							"name": "value",
+							"value": "UpdateUnits(\"armatlas\", 2, bb.transport.atlases, shoppingCart)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "7irMjVdhPNfYE6GqqktfhJjAXfB0CZyA",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "bb.transport.atlasesStatus"
+						}, {
+							"name": "value",
+							"value": "UpdateAtlasesStatus(bb.transport.atlases, bb.transport.atlasesStatus)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "0J29Gge6FteHxdeB9lc09D5wBwTOdnWb",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitName",
+								"value": "\"armatlas\""
+							}, {
+								"name": "amount",
+								"value": "2-#bb.transport.atlases - (shoppingCart[\"armatlas\"] or 0)"
+							}, {
+								"name": "priority",
+								"value": "95-#bb.transport.atlases"
+							}, {
+								"name": "shoppingCart",
+								"value": "shoppingCart"
+							}, {
+								"name": "scriptName",
+								"value": "nota_falcos_helper_ai.AddToShoppingList"
+							} ],
+							"scriptName": "nota_falcos_helper_ai.AddToShoppingList"
+						}, {
+							"children": [],
+							"id": "IwPth0tpw2B0xm8NdkNMFOvLceMSX4Hb",
+							"nodeType": "success",
+							"parameters": []
+						} ],
+						"id": "RItwSs0kysOKXyMq3ByljoM61cBMWAsj",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "#bb.transport.atlases+(shoppingCart[\"armatlas\"] or 0) < 2"
+						}, {
+							"name": "repeat",
+							"value": "false"
+						} ]
+					}, {
+						"children": [ {
+							"children": [ {
+								"children": [],
+								"id": "8p4SUvjJmSnMf0nzRkfQBxahENEmzTAo",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "var",
+									"value": "bb.transport.seer"
+								}, {
+									"name": "value",
+									"value": "UpdateUnits(\"armseer\", 1, bb.transport.seer, shoppingCart)"
+								}, {
+									"name": "scriptName",
+									"value": "store"
+								} ],
+								"scriptName": "store"
+							}, {
+								"children": [ {
+									"children": [],
+									"id": "1WxO1aniEgVqlkxrqiUATGHGHZDcwgT7",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "unitName",
+										"value": "\"armseer\""
+									}, {
+										"name": "amount",
+										"value": "1"
+									}, {
+										"name": "priority",
+										"value": "95"
+									}, {
+										"name": "shoppingCart",
+										"value": "shoppingCart"
+									}, {
+										"name": "scriptName",
+										"value": "nota_falcos_helper_ai.AddToShoppingList"
+									} ],
+									"scriptName": "nota_falcos_helper_ai.AddToShoppingList"
+								}, {
+									"children": [],
+									"id": "wkDNJgv3SDb503RU1tofeXaH3bGFeyqe",
+									"nodeType": "success",
+									"parameters": []
+								} ],
+								"id": "aRKYtFZDhVUVk4ugEvGZ9oYiKL8AAJTa",
+								"nodeType": "luaCondition",
+								"parameters": [ {
+									"name": "expression",
+									"value": "#bb.transport.seer + (shoppingCart[\"armseer\"] or 0) < 1"
+								}, {
+									"name": "repeat",
+									"value": "false"
+								} ]
+							} ],
+							"id": "JrKlXjCjWVM6P59oX7v6d2XOHzelcSiN",
+							"nodeType": "sequence",
+							"parameters": []
+						}, {
+							"children": [],
+							"id": "zBv6Y2qeiUvr0S1o4DDK6dast6MQqHwz",
+							"nodeType": "success",
+							"parameters": []
+						} ],
+						"id": "q8mARTn3r8Exp9IvydgUlmlJWxp1uISf",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "not transportedSeer"
+						}, {
+							"name": "repeat",
+							"value": "false"
+						} ]
+					}, {
+						"children": [],
+						"id": "jUiBShJMB5MZCREJHWRhNy9OQUdBl6eg",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "bb.transport.lugers"
+						}, {
+							"name": "value",
+							"value": "UpdateUnits(\"armmart\", math.huge, bb.transport.lugers, shoppingCart)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "jocJGLALbVRzefvs8PXta8gzynE2bpqT",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "finalDestination"
+							}, {
+								"name": "value",
+								"value": "GetFarthestSafePoint(bb.middleCorridor.points)"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [],
+							"id": "mK2iXCux6B6neg5900yZ3wk58Hp4qLDh",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "finalDestination"
+							}, {
+								"name": "value",
+								"value": "artyStarterPos"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						} ],
+						"id": "fSG9FkcUnPyWbtrvo5IQHfd3bMvE3q8z",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "bb.decapitated==true"
+						}, {
+							"name": "repeat",
+							"value": "false"
+						} ]
+					} ],
+					"id": "RWHsm4pedy39aAnRmKV8HIf8CiPcu8c1",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "UY3L3J6VAY7InYheHSwPva0IpJoqWewM",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "yEfoS39NO3LTs8VKfvWb6SP29kuVc1Xv",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "condition",
+						"value": "#bb.transport.atlases>0"
+					}, {
+						"name": "scriptName",
+						"value": "waitUntil"
+					} ],
+					"scriptName": "waitUntil"
+				}, {
+					"children": [],
+					"id": "GUZFv3UbhwD9tVMDPB6WhDb9xEm0rq1Q",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "atlas1"
+					}, {
+						"name": "value",
+						"value": "bb.transport.atlases[1]"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "dp3XrCfdjPUdNqeHlAP2OtGsfPOkYn6G",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "condition",
+								"value": "bb.transport.atlasesStatus[atlas1]==\"free\""
+							}, {
+								"name": "scriptName",
+								"value": "waitUntil"
+							} ],
+							"scriptName": "waitUntil"
+						}, {
+							"children": [ {
+								"children": [ {
+									"children": [],
+									"id": "ZLW0n2FsVZaRmUiJddAHrtDwsi8a46aP",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "condition",
+										"value": "#bb.transport.seer > 0"
+									}, {
+										"name": "scriptName",
+										"value": "waitUntil"
+									} ],
+									"scriptName": "waitUntil"
+								}, {
+									"children": [],
+									"id": "GBU0G4bVsTHPFpd0v9YmIbC38k4NEEti",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "seer"
+									}, {
+										"name": "value",
+										"value": "bb.transport.seer[1]"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								}, {
+									"children": [],
+									"id": "Ae0GKbQZDKYXqKbJWL5ORDf9hQpa8g5u",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "bb.transport.atlasesStatus[atlas1]"
+									}, {
+										"name": "value",
+										"value": "\"occupied\""
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								}, {
+									"children": [],
+									"id": "JrV5Mwft0YpLtpMhN5vyqvb0J9ehM8DQ",
+									"nodeType": "reference",
+									"parameters": [ {
+										"name": "behaviourName",
+										"value": "nota_falcos_helper_ai.transport_around_path"
+									} ],
+									"referenceInputs": [ {
+										"name": "transport",
+										"value": "atlas1"
+									}, {
+										"name": "path",
+										"value": "nil"
+									}, {
+										"name": "passenger",
+										"value": "seer"
+									}, {
+										"name": "targetPos",
+										"value": "seerStarterPos"
+									}, {
+										"name": "offsetVec",
+										"value": "Vec3(math.random() * 400 - 200, 0, math.random() *400- 200)"
+									} ],
+									"referenceOutputs": []
+								}, {
+									"children": [],
+									"id": "stSwJYYhzmDwynpmlBx4TmTwfUYhul3j",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "bb.frontal.seer"
+									}, {
+										"name": "value",
+										"value": "InsertToArray(bb.frontal.seer,seer)"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								}, {
+									"children": [],
+									"id": "AqRdg3FRSlO7FZwZtFOHPc5ZwQrpJhPH",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "transportedSeer"
+									}, {
+										"name": "value",
+										"value": "true"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								}, {
+									"children": [],
+									"id": "6KMHGBr4wfhNaxsFC1ugslAMaAxBLsnn",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "bb.transport.atlasesStatus[atlas1]"
+									}, {
+										"name": "value",
+										"value": "\"free\""
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								} ],
+								"id": "sV9cGhYb0JKqKjQQUsf0dRzIkekSsjDI",
+								"nodeType": "sequence",
+								"parameters": []
+							}, {
+								"children": [ {
+									"children": [],
+									"id": "hvYhcMaJ10pYVWfRiPhIpLGqVfnqhd4o",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "luger1"
+									}, {
+										"name": "value",
+										"value": "PopFromArray(bb.transport.lugers)"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								}, {
+									"children": [ {
+										"children": [],
+										"id": "4VbU3GTCFyufrtXQBkQMBE9xFN2t5PmA",
+										"nodeType": "success",
+										"parameters": []
+									}, {
+										"children": [ {
+											"children": [],
+											"id": "mh4e5ckMSvnsJgwSPfVll4DsOSHmil0T",
+											"nodeType": "luaCommand",
+											"parameters": [ {
+												"name": "var",
+												"value": "bb.transport.atlasesStatus[atlas1]"
+											}, {
+												"name": "value",
+												"value": "\"occupied\""
+											}, {
+												"name": "scriptName",
+												"value": "store"
+											} ],
+											"scriptName": "store"
+										}, {
+											"children": [],
+											"id": "JI00chUdQu7pWXT1S46NSdMKhM8xvKUi",
+											"nodeType": "reference",
+											"parameters": [ {
+												"name": "behaviourName",
+												"value": "nota_falcos_helper_ai.transport_around_path"
+											} ],
+											"referenceInputs": [ {
+												"name": "transport",
+												"value": "atlas1"
+											}, {
+												"name": "path",
+												"value": "nil"
+											}, {
+												"name": "passenger",
+												"value": "luger1"
+											}, {
+												"name": "targetPos",
+												"value": "finalDestination"
+											}, {
+												"name": "offsetVec",
+												"value": "Vec3(math.random() * 400 - 200, 0, math.random() *400- 200)"
+											} ],
+											"referenceOutputs": []
+										}, {
+											"children": [],
+											"id": "H8KyAksZuP6iG7Uns3gvhPKeUo7NJMdm",
+											"nodeType": "luaCommand",
+											"parameters": [ {
+												"name": "var",
+												"value": "bb.frontal.lugers"
+											}, {
+												"name": "value",
+												"value": "InsertToArray(bb.frontal.lugers, luger1)"
+											}, {
+												"name": "scriptName",
+												"value": "store"
+											} ],
+											"scriptName": "store"
+										}, {
+											"children": [],
+											"id": "Dm5BmyKPgCY2DopfgqfRh07Vm4DWq1WT",
+											"nodeType": "luaCommand",
+											"parameters": [ {
+												"name": "var",
+												"value": "bb.transport.atlasesStatus[atlas1]"
+											}, {
+												"name": "value",
+												"value": "\"free\""
+											}, {
+												"name": "scriptName",
+												"value": "store"
+											} ],
+											"scriptName": "store"
+										} ],
+										"id": "IEgoCX1SSApciyFxiiPZyjjoLDajyysq",
+										"nodeType": "sequence",
+										"parameters": []
+									} ],
+									"id": "7nGq2QdUtjnkbp13sGxv508YKwKm4fyC",
+									"nodeType": "luaCondition",
+									"parameters": [ {
+										"name": "expression",
+										"value": "luger1 == nil"
+									}, {
+										"name": "repeat",
+										"value": "false"
+									} ]
+								} ],
+								"id": "hvhw0SeKt4o88RO2hJtJR8znANPG5WPA",
+								"nodeType": "sequence",
+								"parameters": []
+							} ],
+							"id": "H5nTLxxqSiXiB8p5Lc17LMblWJ1x7uOv",
+							"nodeType": "luaCondition",
+							"parameters": [ {
+								"name": "expression",
+								"value": "not transportedSeer"
+							}, {
+								"name": "repeat",
+								"value": "false"
+							} ]
+						} ],
+						"id": "8uq9ucMBBf1Xt2nMgfRmA9WNRuD21K6X",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "EBaIwPWuGppl1TRTtCvFIbUa9jN5ejBC",
+					"nodeType": "repeat",
+					"parameters": []
+				} ],
+				"id": "JfEP3vNprpMV50TiokTsmlolnHxURZBB",
+				"nodeType": "sequence",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "fWPltSf9FU9afZhUOr4qKWke2r53JLu7",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "condition",
+						"value": "#bb.transport.atlases>1"
+					}, {
+						"name": "scriptName",
+						"value": "waitUntil"
+					} ],
+					"scriptName": "waitUntil"
+				}, {
+					"children": [],
+					"id": "xWnAiYBTzgpr5ecAtj2jUaVq5VpM9qGp",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "atlas2"
+					}, {
+						"name": "value",
+						"value": "bb.transport.atlases[2]"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "M3ZHXEQZrACv5Op5J5xfJvI6r76dBTyZ",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "condition",
+								"value": "bb.transport.atlasesStatus[atlas2]==\"free\""
+							}, {
+								"name": "scriptName",
+								"value": "waitUntil"
+							} ],
+							"scriptName": "waitUntil"
+						}, {
+							"children": [ {
+								"children": [],
+								"id": "6bIYqnfj1BFXElZ2RklT6qNGj5KlKUXC",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "var",
+									"value": "luger2"
+								}, {
+									"name": "value",
+									"value": "PopFromArray(bb.transport.lugers)"
+								}, {
+									"name": "scriptName",
+									"value": "store"
+								} ],
+								"scriptName": "store"
+							}, {
+								"children": [ {
+									"children": [],
+									"id": "VB0DqQag6BmYPvkm1mYYyrpxLBUWc9bM",
+									"nodeType": "success",
+									"parameters": []
+								}, {
+									"children": [ {
+										"children": [],
+										"id": "r9poHOGZZv5DVoPYLhXXlekyqppKnhDC",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "bb.transport.atlasesStatus[atlas2]"
+										}, {
+											"name": "value",
+											"value": "\"occupied\""
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									}, {
+										"children": [],
+										"id": "tTM6piL2BTUcOE92w6nDJ4bGy0k1mHfu",
+										"nodeType": "reference",
+										"parameters": [ {
+											"name": "behaviourName",
+											"value": "nota_falcos_helper_ai.transport_around_path"
+										} ],
+										"referenceInputs": [ {
+											"name": "transport",
+											"value": "atlas2"
+										}, {
+											"name": "path",
+											"value": "nil"
+										}, {
+											"name": "passenger",
+											"value": "luger2"
+										}, {
+											"name": "targetPos",
+											"value": "finalDestination"
+										}, {
+											"name": "offsetVec",
+											"value": "Vec3(math.random() * 400 - 200, 0, math.random() *400- 200)"
+										} ],
+										"referenceOutputs": []
+									}, {
+										"children": [],
+										"id": "IxOFY2AdDB0oxjCCPVMoQFWyOW3lsI01",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "bb.frontal.lugers"
+										}, {
+											"name": "value",
+											"value": "InsertToArray(bb.frontal.lugers, luger2)"
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									}, {
+										"children": [],
+										"id": "IKMA85hqClplV6gUqPdhTGPTpOZUuevF",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "bb.transport.atlasesStatus[atlas2]"
+										}, {
+											"name": "value",
+											"value": "\"free\""
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									} ],
+									"id": "uq830OqGJt8AW4NMec4opJm3CiDpERHw",
+									"nodeType": "sequence",
+									"parameters": []
+								} ],
+								"id": "qnJJWFgpPwFMsNR8A3yLiwKWR2RgX5VA",
+								"nodeType": "luaCondition",
+								"parameters": [ {
+									"name": "expression",
+									"value": "luger2 == nil"
+								}, {
+									"name": "repeat",
+									"value": "false"
+								} ]
+							} ],
+							"id": "rhY0GkLKf1Ax5Ovz73zthQaLX3tbj9s5",
+							"nodeType": "sequence",
+							"parameters": []
+						} ],
+						"id": "S0cjaK1b4yA0wPtiOKGK4HaYGj3K91QH",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "0qmVJBq7jgucFCwwZKPgoSKX01d9tTSj",
+					"nodeType": "repeat",
+					"parameters": []
+				} ],
+				"id": "lBViKAe5Nh9QxvIo0ViaXQKOnNkpDpD5",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "AmncMmM6E2ObK13Nk8RQSPCBhQmmoAvY",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		} ],
+		"id": "EMcMhm18s7TCUnfr4ixUoLGNwBOId7s4",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

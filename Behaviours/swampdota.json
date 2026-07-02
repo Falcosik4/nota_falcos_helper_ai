@@ -1,0 +1,649 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"2TNAPyoaIHE5kpOWi4tMxoGThBrvWRpy": {
+			"height": 94,
+			"title": "FriendlyBasePos (array)",
+			"width": 373,
+			"x": 1515,
+			"y": -957
+		},
+		"37asdAhZtYHSwXqGNxZ95KVWzYi7tYme": {
+			"height": 112,
+			"title": "nota_falcos_helper_ai.SetupSwampdota",
+			"width": 317,
+			"x": 1534,
+			"y": -1336
+		},
+		"3eY9ZaIKhpsvVmqVgBoJy0iLXh10UuEH": {
+			"height": 92,
+			"title": "Prices",
+			"width": 183,
+			"x": 1304,
+			"y": -398
+		},
+		"3f2K2f4yHMyZhmxuxi9cPhaoJYasGZXj": {
+			"height": 110,
+			"title": "Perform shopping",
+			"width": 390,
+			"x": 1747,
+			"y": 217
+		},
+		"7UVUO8LrbNgVCD49K3GjYBpJCRBK2Yva": {
+			"height": 60,
+			"title": "Setup",
+			"width": 143,
+			"x": 657,
+			"y": -91
+		},
+		"8Hbt4hM25v4Mu8edNeXuA0JMSLEIxKsL": {
+			"height": 72,
+			"title": "Cooldown",
+			"width": 144,
+			"x": 1751,
+			"y": 331
+		},
+		"8oxP6ssWlXXPWXVp0ZipRXi7yH6fHosc": {
+			"height": 172,
+			"title": "Frontline transportation subtree",
+			"width": 926,
+			"x": 1875,
+			"y": 792
+		},
+		"Co73WCAXNDQbb0V62c489oTYr68Nwqk1": {
+			"height": 94,
+			"title": "Frontal units",
+			"width": 267,
+			"x": 1269,
+			"y": -239
+		},
+		"EqLv3rVVJ5P6kgJYDRRoOqRyuNtoQjHW": {
+			"height": 60,
+			"title": "Start",
+			"width": 143,
+			"x": 310,
+			"y": -9
+		},
+		"Gs1GeyhxAkYeGvkdBBtzLvGhypFDjvLu": {
+			"height": 130,
+			"title": "Decapitation subtree",
+			"width": 379,
+			"x": 1872,
+			"y": 672
+		},
+		"I08LsoFEGaLNBKvtHmHledoCHBP2n2SQ": {
+			"height": 94,
+			"title": "Frontal attack ready seer",
+			"width": 267,
+			"x": 1272,
+			"y": -63
+		},
+		"JLcZQA3kLqKFAbIFWA2NZhoXtQLa7uXu": {
+			"height": 94,
+			"title": "Enemy IDs",
+			"width": 267,
+			"x": 1475,
+			"y": -320
+		},
+		"Jskx5DtBCWHdK2ozcxbWlelQLbM1JTuq": {
+			"height": 70,
+			"title": "Start subtreess",
+			"width": 202,
+			"x": 764,
+			"y": 437
+		},
+		"LGn5y1ujeP4wZnMD96Z7IbQN87Z2LNcG": {
+			"height": 94,
+			"title": "Update visible units",
+			"width": 252,
+			"x": 1603,
+			"y": 115
+		},
+		"MofcfDIuf1cwGvzUgDb2eXnito2VhnAS": {
+			"height": 94,
+			"title": "Frontal attack ready lugers",
+			"width": 267,
+			"x": 1406,
+			"y": -150
+		},
+		"OaSuOWbpIBJVVCM6rY7UJxvbrhYJTNxv": {
+			"height": 60,
+			"title": "Updating visible units",
+			"width": 216,
+			"x": 1332,
+			"y": 126
+		},
+		"Q2xHRYKJmWKpeFiUcGAWImw7p1aP15M1": {
+			"height": 94,
+			"title": "FriendlyBasePos",
+			"width": 320,
+			"x": 1251,
+			"y": -872
+		},
+		"QHJcs5gforEN9ZFTugwKm8XvMILe0ufW": {
+			"height": 94,
+			"title": "LastStrongpointPos",
+			"width": 328,
+			"x": 1257,
+			"y": -554
+		},
+		"Sk8fBjRzH6eYDAq01Vna7ghbYrhxfBXG": {
+			"height": 60,
+			"title": "Setup bought units",
+			"width": 201,
+			"x": 1135,
+			"y": 466
+		},
+		"TmBzdtcObkO1LRN7LiV0twQhStDJaMjR": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1369,
+			"y": 474
+		},
+		"UwvnCQpeU5GzgBbhVzfEZmnvbFh8ecCk": {
+			"height": 110,
+			"title": "Frontal assault subtree",
+			"width": 379,
+			"x": 1886,
+			"y": 958
+		},
+		"V394d0CsDlYItgZ8vdyGpCl5s8BwKXNU": {
+			"height": 60,
+			"title": "Shopping",
+			"width": 195,
+			"x": 1282,
+			"y": 306
+		},
+		"X7nQNZ9dCDzfVMLIcfqU59tGOP3rQagj": {
+			"height": 132,
+			"title": "nota_falcos_helper_ai.SetupMapGrid",
+			"width": 297,
+			"x": 1226,
+			"y": -1442
+		},
+		"awzavhGHdupvJCm6JugCKrM9ycRYjNus": {
+			"height": 94,
+			"title": "Mission Info",
+			"width": 267,
+			"x": 1252,
+			"y": -1232
+		},
+		"bW1w989WlyQpmc4izQstSOzkftMvWLHE": {
+			"height": 94,
+			"title": "LastStrongpointPos(array)",
+			"width": 381,
+			"x": 1526,
+			"y": -631
+		},
+		"cgzOfi0GmEcuFMKJkTt50cJqczgre4cF": {
+			"height": 92,
+			"title": "Spawner ID",
+			"width": 419,
+			"x": 1496,
+			"y": -1142
+		},
+		"dZgX86nobEdwxs132r0YEB68dMktnTyO": {
+			"height": 94,
+			"title": "Mark new units as free",
+			"width": 379,
+			"x": 1650,
+			"y": 442
+		},
+		"esCnkkTT9LK2DfrNfD6ZpqhdNFlzpaSH": {
+			"height": 94,
+			"title": "SpawnerExpectedPos",
+			"width": 407,
+			"x": 1457,
+			"y": -476
+		},
+		"jrsxdgZc01UlwBB1sYNc8RBw2flfmVWV": {
+			"height": 94,
+			"title": "EnemyBasePos",
+			"width": 328,
+			"x": 1252,
+			"y": -716
+		},
+		"lHzYCH7gKJvuMf8l1uTRcAxXktoGGA49": {
+			"height": 81,
+			"title": "Prohibit altases from landing to avoid glitchy unload (InitializeAerialUnitsNoGroup)",
+			"width": 577,
+			"x": 1651,
+			"y": 540
+		},
+		"lWFvAY8xAinU2GFpa6Unps8h51uSM2rR": {
+			"height": 92,
+			"title": "Spawner ID",
+			"width": 419,
+			"x": 1236,
+			"y": -1052
+		},
+		"tvc3eAfwVsT0pDmoW12kkqosqAURNMi8": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1535,
+			"y": 297
+		},
+		"yLLr5COGL3fRwaoHWSk0WDlppV2oHPo3": {
+			"height": 94,
+			"title": "EnemyBasePos (array)",
+			"width": 381,
+			"x": 1499,
+			"y": -799
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "X7nQNZ9dCDzfVMLIcfqU59tGOP3rQagj",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "defaultRange",
+					"value": "600"
+				}, {
+					"name": "heightThreshold",
+					"value": "nil"
+				}, {
+					"name": "rangeHeightThreshold",
+					"value": "nil"
+				}, {
+					"name": "cellsPerLine",
+					"value": "100"
+				}, {
+					"name": "scriptName",
+					"value": "nota_falcos_helper_ai.SetupMapGrid"
+				} ],
+				"scriptName": "nota_falcos_helper_ai.SetupMapGrid"
+			}, {
+				"children": [],
+				"id": "37asdAhZtYHSwXqGNxZ95KVWzYi7tYme",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "initialAtlases",
+					"value": "0"
+				}, {
+					"name": "initialSeers",
+					"value": "0"
+				}, {
+					"name": "initialInfiltrators",
+					"value": "0"
+				}, {
+					"name": "scriptName",
+					"value": "nota_falcos_helper_ai.SetupSwampdota"
+				} ],
+				"scriptName": "nota_falcos_helper_ai.SetupSwampdota"
+			}, {
+				"children": [],
+				"id": "awzavhGHdupvJCm6JugCKrM9ycRYjNus",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "missionInfo"
+				}, {
+					"name": "value",
+					"value": "core.MissionInfo()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "cgzOfi0GmEcuFMKJkTt50cJqczgre4cF",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.middleCorridor"
+				}, {
+					"name": "value",
+					"value": "missionInfo.corridors.Middle"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "lWFvAY8xAinU2GFpa6Unps8h51uSM2rR",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.enemySpawnerID"
+				}, {
+					"name": "value",
+					"value": "missionInfo.battleLines.EvilMiddle.spawnerBuildingID"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "2TNAPyoaIHE5kpOWi4tMxoGThBrvWRpy",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "fbp"
+				}, {
+					"name": "value",
+					"value": "bb.middleCorridor.points[1].position"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "Q2xHRYKJmWKpeFiUcGAWImw7p1aP15M1",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.friendlyBasePos"
+				}, {
+					"name": "value",
+					"value": "Vec3(fbp.x, fbp.y,fbp.z)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "yLLr5COGL3fRwaoHWSk0WDlppV2oHPo3",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "ebp"
+				}, {
+					"name": "value",
+					"value": "bb.middleCorridor.points[15].position"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "jrsxdgZc01UlwBB1sYNc8RBw2flfmVWV",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.enemyBasePosition"
+				}, {
+					"name": "value",
+					"value": "Vec3(ebp.x,ebp.y,ebp.z)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "bW1w989WlyQpmc4izQstSOzkftMvWLHE",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "lsp"
+				}, {
+					"name": "value",
+					"value": "bb.middleCorridor.points[14].position"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "QHJcs5gforEN9ZFTugwKm8XvMILe0ufW",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "lastStrongpointPos"
+				}, {
+					"name": "value",
+					"value": "Vec3(lsp.x,lsp.y, lsp.z)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "esCnkkTT9LK2DfrNfD6ZpqhdNFlzpaSH",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.spawnerExpectedPos"
+				}, {
+					"name": "value",
+					"value": "(lastStrongpointPos + bb.enemyBasePosition)/2.0"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "3eY9ZaIKhpsvVmqVgBoJy0iLXh10UuEH",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.prices"
+				}, {
+					"name": "value",
+					"value": "missionInfo.buy"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "JLcZQA3kLqKFAbIFWA2NZhoXtQLa7uXu",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "enemyIDs"
+				}, {
+					"name": "value",
+					"value": "Spring.GetTeamList(1)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "Co73WCAXNDQbb0V62c489oTYr68Nwqk1",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.frontal"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "MofcfDIuf1cwGvzUgDb2eXnito2VhnAS",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.frontal.lugers"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "I08LsoFEGaLNBKvtHmHledoCHBP2n2SQ",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.frontal.seer"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "7UVUO8LrbNgVCD49K3GjYBpJCRBK2Yva",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "LGn5y1ujeP4wZnMD96Z7IbQN87Z2LNcG",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "visibleUnits"
+					}, {
+						"name": "value",
+						"value": "getVisibleUnits(enemyIDs)"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "OaSuOWbpIBJVVCM6rY7UJxvbrhYJTNxv",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "3f2K2f4yHMyZhmxuxi9cPhaoJYasGZXj",
+						"nodeType": "reference",
+						"parameters": [ {
+							"name": "behaviourName",
+							"value": "nota_falcos_helper_ai.swampdota_shopping"
+						} ],
+						"referenceInputs": [],
+						"referenceOutputs": []
+					}, {
+						"children": [],
+						"id": "8Hbt4hM25v4Mu8edNeXuA0JMSLEIxKsL",
+						"nodeType": "wait",
+						"parameters": [ {
+							"name": "time",
+							"value": 1
+						} ]
+					} ],
+					"id": "tvc3eAfwVsT0pDmoW12kkqosqAURNMi8",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "V394d0CsDlYItgZ8vdyGpCl5s8BwKXNU",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "dZgX86nobEdwxs132r0YEB68dMktnTyO",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "_"
+						}, {
+							"name": "value",
+							"value": "UpdateFreeUnits()"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "lHzYCH7gKJvuMf8l1uTRcAxXktoGGA49",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "scriptName",
+							"value": "nota_falcos_helper_ai.InitializeAerialUnitsNoGroup"
+						} ],
+						"scriptName": "nota_falcos_helper_ai.InitializeAerialUnitsNoGroup"
+					} ],
+					"id": "TmBzdtcObkO1LRN7LiV0twQhStDJaMjR",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "Sk8fBjRzH6eYDAq01Vna7ghbYrhxfBXG",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [],
+				"id": "Gs1GeyhxAkYeGvkdBBtzLvGhypFDjvLu",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_falcos_helper_ai.swampdota_decapitation"
+				} ],
+				"referenceInputs": [],
+				"referenceOutputs": []
+			}, {
+				"children": [],
+				"id": "8oxP6ssWlXXPWXVp0ZipRXi7yH6fHosc",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_falcos_helper_ai.swampdota_transportation"
+				} ],
+				"referenceInputs": [ {
+					"name": "artyStarterPos",
+					"value": "Vec3(bb.middleCorridor.points[6].position.x, bb.middleCorridor.points[6].position.y, bb.middleCorridor.points[6].position.z)"
+				}, {
+					"name": "seerStarterPos",
+					"value": "Vec3(bb.middleCorridor.points[6].position.x, bb.middleCorridor.points[6].position.y, bb.middleCorridor.points[6].position.z)"
+				} ],
+				"referenceOutputs": []
+			}, {
+				"children": [],
+				"id": "UwvnCQpeU5GzgBbhVzfEZmnvbFh8ecCk",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_falcos_helper_ai.swampdata_frontal"
+				} ],
+				"referenceInputs": [],
+				"referenceOutputs": []
+			} ],
+			"id": "Jskx5DtBCWHdK2ozcxbWlelQLbM1JTuq",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		} ],
+		"id": "EqLv3rVVJ5P6kgJYDRRoOqRyuNtoQjHW",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
